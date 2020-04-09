@@ -1,35 +1,135 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">
+<br>
+  <img src="img/airsoft-readme.png" width="600">
+  <br>
+    <br>
+  Airsoft for Beginners
+  <br>
+</h1>
 
-Welcome USER_NAME,
+<h4 align="center">A simple four page website to advertise awareness for Airsoft, a gun air weapon club.</h4>
+ 
+## UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+#### Multiple Page Application (MPA)
 
-## Gitpod Reminders
+- An MPA felt appropiate; reason being the navigation flow of a multi-page site is easy to follow. This type of website has been around since the 90s, which means that most users are familiar with it, and often expect to find multiple pages on sites. The website’s navigation flow is easy to follow, making easy usability with this multi-page design.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- The contains a small amount of content, so the minimal MPA design lends well to serving an clear informational purpose, in this case, a micro-site for airgun products and events.
+ 
+#### Colour Scheme
 
-`python3 -m http.server`
+- The generation of a bespoke colour was accomplished by blending RGB and Hex colours to those of a video background via the use of HTML & CSS.
 
-A blue button should appear to click: *Make Public*,
+  - ![#444444](https://placehold.it/15/444444/000000?text=+) `#444444` Very dark gray
 
-Another blue button should appear to click: *Open Browser*.
+  - ![#222222](https://placehold.it/15/222222/000000?text=+) `#222222` Very dark gray (mostly black).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff` White
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+#### Existing Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Home Page
 
-## Updates Since The Instructional Video
+  - Used to welcome user and provide a `call to action button` for a video.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+- Subscription Newsletter
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  - Although the is no back-end, the form represents and input for user's to contact the website owner regarding it's content etc. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Responsive Navigation
 
---------
+  - Navigation is collapses automatically depending on the devices size the user is viewing the website on.
 
-Happy coding!
+- Multiple Product Page (Guns)
+  - Content awareness pages to for products on offer.
+
+- Testimonials
+  - Isolated area for website visitors to leave review on the website product/service (no back-end, kust static content).
+
+- Pricing Page
+  - Pricing sections (no back-end) representing input fields which potential users would purchase product and services.
+
+- Contact Form
+  - Input field (no back-end) for user's to contact the website owner with questions and queries.
+
+#### Features Left to Implement
+
+- JavaScript 
+    - Additional JavaScript/jQuery could be added to make particular elements more interactive, for example, a scrollable testimonial sections, more modals and animation.
+
+## Technologies Used
+
+
+- [HTML5](https://www.w3.org/TR/html5/ "HTML5 Official Site")
+
+  - Semantic markup language for overall website.
+
+- [CSS3](https://www.w3.org/Style/CSS/ "Cascading Style Sheets Official Site")
+
+  - Cascading Style Sheets for website presentation.
+
+- [jQuery](https://jquery.com/ "jQuery Official Site") 
+
+  - Although beyond the scope of the project, the smallest amount of jQuery has been utilised to trigger the video modal and navigation.
+
+- [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
+
+  - Utilised for overall website.
+
+- [Google Fonts](https://fonts.google.com/ "Google Fonts Official Site")
+  - Type face for website.
+
+- [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site")
+
+  - Utilised for icons
+
+
+## Testing
+
+I tested the application using `Google Chrome Dev tools` for various devices sizes to see if the application responsiveness scaled correctly in size.
+
+The devices was also test on real-world mobile devices (personal phone and tablet).
+
+- External links to third party websites.
+
+- All buttons sizes were checked for responsiveness.
+
+- Ensured individual section headers resized and appeared well when viewed on various device screens.
+
+- Spell checked all text content.
+
+- HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
+
+- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+
+## Deployment
+
+- GitHub Pages was used for deploying the final project version.
+
+- Tests ran in development were repeated on the deployed application.
+
+- The completed project can be located here.
+
+
+## Credits
+
+-  N/A
+
+### Content
+- All text content is original.
+
+### Media
+- All photos are licence free and were obtained from [Pexels.com](pexels.com)
+
+- All sound are royalty and free.
+
+- The video content is licence free and obtained from YouTube via Airsoft. [Airsoft](https://www.youtube.com/embed/K6B6zU3xA1U)
+
+### Acknowledgements
+
+- I received inspiration for this project from [Just BB Guns](https://www.justbbguns.co.uk/blog/tips/airsoft-beginners-need-know-first-game/) and fellow Code Institute Students.
