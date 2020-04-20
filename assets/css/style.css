@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap'); */
+
+* {
+    margin:0;
+    padding:0;
+    border:0;  
+  /* border: 0; */
+  /* turn on debug borders */
+  border: 1px solid red;
+}
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+} */
+
+/*
+body {
+    font-family: $font-family-base;
+    font-size:   $font-size-base;
+    line-height:   $line-height-base;
+    
+
+    background-color $body-bg;
+}
+
+a, a:hover {
+     color: #9b59b6;
+}
+*/
+
+
+/* Page Menu */
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
