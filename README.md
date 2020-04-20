@@ -1,26 +1,29 @@
 
 # New Student Guide
 
-A simple tool for curated FAQ, tool tips and Key concepts for onboarding new students in the Full Stack Web Developer course
+A simple tool for curated FAQ, tooltips and Key concepts for onboarding new students in the Full Stack Web Developer course
 
 ## Project Brief
 
 - What does the client want?
 
-Improve student journey expereince. Help beginning CI students (HTML/CSS/User throgh user/centeric-frontend) minimize lost study time by alerting them to the most frequently  
+Improve student journey experience. Help beginning CI students (HTML/CSS/User through user-centric-frontend) minimize lost study time by alerting them to the most frequently  
+
 - Who do I think will be using the site?
 
-- CI students working on initial modules HTML/CSS/User through user/centeric-frontend
+- CI students working on initial modules HTML/CSS/User through user/centric-frontend
 
 - How can I make the site as user friendly as possible for the user?
 
-Remove friction to learning by provide alerts and tips at checkpoint by module to handle the challenges
+Simple and intuitive navigation - Remove friction to learning by providing alerts and tips at checkpoints by modules to handle the challenges
 
 - What considerations do I need to keep in mind to meet the user/client requirements?
 
 Provide recommend information at a time when it makes sense and students have the context to understand and apply the tool
 
-- Is there a specific colour scheme I need to work around?
+- Is there a specific color scheme I need to work around?
+
+Researched recommended color scheme for text and image content webpage
 
 - Website Maintenance
 Easy to maintain and update content
@@ -31,20 +34,21 @@ minimal use of utility
 ## Semantic Checklist
 
 - Title Specifically for CI Full Stack Developer New Students
-- Article Container for New Student FAQ and tips focused on User Centric Frontend Development modules
+- Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
+- sections
 
 ## UX
 
 - Call out Information Architecture how to find information try to suggest at what point in their progress that tips are relevant
 - Single Page: 3 Sections
-  *CI modules (HTML, CSS, User Centric)
+  *CI modules (HTML, CSS, User-Centric)
   *Tools (CI LMS Repl.it, Gitpod Team Unlimited, Github, Git, Slack, Browser Developer Tool) *Key Concepts (CSS-Specificity, Bootstrap-Flexbox)
-  *MS1
+  *MS1 Resources
 
 ## Single Page Website with Three Sections
 
-- mobile first default layout
-- one page design to flocus on the most helpful information
+- mobile-first default layout
+- one page design to focus on the most helpful information
 - remove the friction to get started
 - webpage is reusable or recyclable by topic or issue
 - easy to maintain and publish content
@@ -57,7 +61,7 @@ minimal use of utility
 ## Persona
 
 - New CI Student
-- Non Slack User
+- Non-Slack User
 - CI Student Care
 
 ## Client Stories/User Stories
@@ -70,15 +74,13 @@ minimal use of utility
 
 ## Wireframes
 
+- Refer to MS1 balsamiq
+- [Initial wireframe for desktop](\assets\wireframes\InitialWireframeDesktop.png)
+- [Initial wireframe for iPhone](\assets\wireframes\InitialWireframeiPhone.png)
+
 ## Colour Scheme
 
-- The generation of a bespoke colour was accomplished by blending RGB and Hex colours to those of a video background via the use of HTML & CSS.
-
-  - ![#444444](https://placehold.it/15/444444/000000?text=+) `#444444` Very dark gray
-
-  - ![#222222](https://placehold.it/15/222222/000000?text=+) `#222222` Very dark gray (mostly black).
-
-  - ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff` White
+- Need recommendations with background, fonts and color scheme
 
 ### Features
 
@@ -90,37 +92,30 @@ In this section, you should go over the different parts of your project, and des
 - sections
 - carousel
 - scroll spy
-- modal window for file download
+- modal window
+- file download
 - hide elements at defined breakpoints
 - aria labels?
+- Form for Collect Usage and Rating of each resource
 
-- Collect Usage and Rating of each resource
-- Home Page
-
-  - Used to welcome user and provide a `call to action button` for a video.
-
-- Subscription Newsletter
-
-  - Although the is no back-end, the form represents and input for user's to contact the website owner regarding it's content etc.
+- Home Header section
+  - Use to welcome users and provide a `call to action button` to select section
 
 - Responsive Navigation
 
-  - Navigation is collapses automatically depending on the devices size the user is viewing the website on.
-
-- Multiple Product Page (Guns)
-  - Content awareness pages to for products on offer.
-
-- Content Usage and Feedback
-  - Rating of content
-  - Comment room for imporvement
-  Isolated area for website visitors to leave review on the website product/service (no back-end, kust static content).
+  - Navigation collapses automatically depending on the device utilized
 
 - Document Download
 
-- Contact Form
-  - Input field (no back-end) for user's to contact the website owner with questions and queries.
-
+- Footer
+  - Input Form to Content Usage and Feedback
+    - Rating of content
+    - Comment to provide feedback for improvements
+  
 #### Features Left to Implement
+
+- Activate Form Javascript for Collect stream click
+- Collect Rating of each resource
 
 - JavaScript
   Additional JavaScript/jQuery could be added to make particular elements more interactive, for example, a scrollable testimonial sections, more modals and animation.
@@ -131,39 +126,39 @@ In this section, you should go over the different parts of your project, and des
 - Track Slack Pinned messages
 - Single screen Visual Checklists
 - Manual maintenance process flow to be automated using slack API and bots
-- decision tree or simple AI
+- use decision-tree or simple AI to keep, remove or modify content
 - chatbot
 
 ### Technologies Used
 
-- [HTML5](https://www.w3.org/TR/html5/ "HTML5 Official Site")
-
-  - Semantic markup language for overall website.
+- Semantics markup
 
 - [CSS3](https://www.w3.org/Style/CSS/ "Cascading Style Sheets Official Site")
 
-  - Cascading Style Sheets for website presentation.
+- Cascading Style Sheets for website presentation.
 
 - [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
 
-  - Utilised for overall website.
+- Fonts
+  - [Google Fonts](https://fonts.google.com/ "Google Fonts Official Site")
 
-- [Google Fonts](https://fonts.google.com/ "Google Fonts Official Site")
-  - Type face for website.
-
-- [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site")
-
-- Utilized for icons
+- Utilized for icons  
+  - [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site")
 
 ## Testing
 
-I tested the application using `Google Chrome Dev tools` for various devices sizes to see if the application responsiveness scaled correctly in size.
+- Test website using `Google Chrome Dev tools` for various devices sizes responsiveness
 
-The devices was also test on real-world mobile devices (personal phone and tablet).
+- The webpage was tested on  a cell phone and ipad
 
 - External links to third party websites.
+  - fontawsome
 
-- All buttons sizes were checked for responsiveness.
+- buttons responsiveness
+
+- Navigation
+
+- Links
 
 - Ensured individual section headers resized and appeared well when viewed on various device screens.
 
@@ -171,7 +166,8 @@ The devices was also test on real-world mobile devices (personal phone and table
 
 - HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
 
-- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+- Chrome Developer Tool validation
+  - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
 
 ## Deployment
 
@@ -180,10 +176,6 @@ The devices was also test on real-world mobile devices (personal phone and table
 - Tests ran in development were repeated on the deployed application.
 
 - The completed project can be located here.
-
-## Credits
-
-- Igor Basuga User stakeholder
 
 ### Content
 
@@ -194,22 +186,25 @@ The devices was also test on real-world mobile devices (personal phone and table
 
 ### Media
 
-- All photos are licence free and were obtained from [Pexels.com](pexels.com)
+- CI Slack channel links to pinned messages
 
-- All sound are royalty and free.
+- [CI resources](https://auxfuse.github.io/userCentricResourcePack/) by Anthony O'Brien with CI collaborators
 
-- The video content is licence free and obtained from YouTube via Airsoft. [Airsoft](https://www.youtube.com/embed/K6B6zU3xA1U)
+- Documents, CI slack links reference
 
 ### Issues and Resolutions + Any known issues
 
-### Acknowledgements
+### Acknowledgements and Credits
 
-- I received inspiration for this project from [Just BB Guns](https://www.justbbguns.co.uk/blog/tips/airsoft-beginners-need-know-first-game/) and fellow Code Institute Students.
+- Igor Basuga User stakeholder
+- Anthony O'Brien
+- eventyret_mentor
+- Anna_ci
 
 ## Research
 
 - Customer Research
-Obseravation of slack FAQ and Pinned Messages
+Observation of slack FAQ and Pinned Messages
 - Personas
 Students with little experience but comfortable using a computer as a user
 -Student Journey
@@ -237,6 +232,18 @@ Students with little experience but comfortable using a computer as a user
 
 - [How the Bootstrap 4 Grid Works](https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7)
 
+### Developer Tools
+
+- [Goole Chrome Developer Tools Crash Course](https://www.youtube.com/watch?v=x4q86IjJFag)
+
+- Gitpod
+
+- VSCode
+
+### HTML
+
+- [HTML5](https://www.w3.org/TR/html5/HTML5) Official Site
+
 ### Disclaimer
 
 ### Git and GitHub
@@ -245,37 +252,3 @@ Students with little experience but comfortable using a computer as a user
 
 - Feature Branches
   - README
-
-1. item1
-1. item2
-
-<!-- Images -->
-@[markdown Logo](HTTP)
-
-<!-- Github Markdown -->
-```bash
-  npm install
-```
-
-```javascript
-  funcitons add(num1, num2) {
-    retunr num1 + num2;
-  }
-```
-
-````python
-  def add(num1, num2):
-    eturn num1 + num2
-````
-
-<!-- Tables -->
-
-| Name  | Email         |
-|-------|---------------|
-|John   | john@gmail.com|
-|John   | john@gmail.com|
-
-<!-- Task Lists -->
-*[x] Task 1
-*[ ] Task 1
-*[x] Task 1
