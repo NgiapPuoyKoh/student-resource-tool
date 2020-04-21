@@ -195,7 +195,7 @@ GitHub Pages was used for deploying the final project version
 
 1. Scroll down the page to GITHUB Pages section
 
-1. For the Source select "master branch.docs folder"
+1. For the Source select "master folder"
 
 1. Wait a few minutes and then access completed project using this link [https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/](https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/)
 
