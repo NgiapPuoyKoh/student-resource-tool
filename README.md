@@ -75,8 +75,8 @@ minimal use of utility
 ## Wireframes
 
 - Refer to MS1 balsamiq
-- [Initial wireframe for desktop](\assets\wireframes\InitialWireframeDesktop.png)
-- [Initial wireframe for iPhone](\assets\wireframes\InitialWireframeiPhone.png)
+- [Initial wireframe for desktop](assets\wireframes\InitialWireframeDesktop.png)
+- [Initial wireframe for iPhone](assets\wireframes\InitialWireframeiPhone.png)
 
 ## Colour Scheme
 
@@ -171,11 +171,33 @@ In this section, you should go over the different parts of your project, and des
 
 ## Deployment
 
-- GitHub Pages was used for deploying the final project version.
+GitHub Pages was used for deploying the final project version
 
-- Tests ran in development were repeated on the deployed application.
+### To clone repository using command line
 
-- The completed project can be located here.
+[Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+  1. Navigate to [https://github.com/NgiapPuoyKoh/](https://github.com/NgiapPuoyKoh/)
+  1. Click Clone or download
+  1. Clone with HTTPS [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
+  1. Open git bash
+  1. Change current working directory to the location where you want the cloned directory to be made
+  1. Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
+  1. Press enter
+
+### Configure GitHub Pages site
+
+[Configuring a publishing source for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+1. Navigate to Github remote repository [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project)
+
+1. Click on settings
+
+1. Scroll down the page to GITHUB Pages section
+
+1. For the Source select "master branch.docs folder"
+
+1. Wait a few minutes and then access completed project using this link [https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/](https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/)
 
 ### Content
 
@@ -218,6 +240,7 @@ Students with little experience but comfortable using a computer as a user
 
 ### UX Design
 
+- [The 2020 UI Design Fundamentals Crash Course](https://www.youtube.com/watch?v=tRpoI6vkqLs)
 - [UX Apprentice](https://www.uxapprentice.com/)
 
 ### Wireframe Reference
