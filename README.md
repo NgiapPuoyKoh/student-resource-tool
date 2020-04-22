@@ -5,60 +5,32 @@ A simple tool for curated FAQ, tooltips and Key concepts for onboarding new stud
 
 ## Project Brief
 
-- What does the client want?
+### What does the client want?
 
-Improve student journey experience. Help beginning CI students (HTML/CSS/User through user-centric-frontend) minimize lost study time by alerting them to the most frequently  
+- Improve student journey experience. Help beginning CI students (HTML/CSS/User through user-centric-frontend) minimize lost study time by alerting them to the most frequently
 
-- Who do I think will be using the site?
+- Minimallly Viable Product (MVP)
 
-- CI students working on initial modules HTML/CSS/User through user/centric-frontend
+### Who do I think will be using the site?
 
-- How can I make the site as user friendly as possible for the user?
+CI students working on initial modules HTML/CSS/User through user/centric-frontend
 
-Simple and intuitive navigation - Remove friction to learning by providing alerts and tips at checkpoints by modules to handle the challenges
+### How can I make the site as user friendly as possible for the user?
 
-- What considerations do I need to keep in mind to meet the user/client requirements?
+- Simple and intuitive navigation
+- Find information easily
 
-Provide recommend information at a time when it makes sense and students have the context to understand and apply the tool
+## What considerations do I need to keep in mind to meet the user/client requirements?
 
-- Is there a specific color scheme I need to work around?
+- Remove friction to learning by providing alerts and tips at the most appropriate checkpoints by modules
+- Provide the informaton in combination with concrete contexts for applying the concepts. Just in time
 
-Researched recommended color scheme for text and image content webpage
+## Is there a specific color scheme I need to work around?
 
-- Website Maintenance
-Easy to maintain and update content
-minimal use of utility
+- Easy on the eyes
+- Need to research best practice UX color scheme for text and image content webpage
 
-- Minimum Viable Product
-
-## Semantic Checklist
-
-- Title Specifically for CI Full Stack Developer New Students
-- Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
-- sections
-
-## UX
-
-- Call out Information Architecture how to find information try to suggest at what point in their progress that tips are relevant
-- Single Page: 3 Sections
-  *CI modules (HTML, CSS, User-Centric)
-  *Tools (CI LMS Repl.it, Gitpod Team Unlimited, Github, Git, Slack, Browser Developer Tool) *Key Concepts (CSS-Specificity, Bootstrap-Flexbox)
-  *MS1 Resources
-
-## Single Page Website with Three Sections
-
-- mobile-first default layout
-- one page design to focus on the most helpful information
-- remove the friction to get started
-- webpage is reusable or recyclable by topic or issue
-- easy to maintain and publish content
-- target a 1 minute read content
-- annotated visual
-- animated gifs
-- accessibility
-- screenreader
-
-## Persona
+## Personas
 
 - New CI Student
 - Non-Slack User
@@ -72,11 +44,38 @@ minimal use of utility
 - Student wants tips related to specific challenges
 - Student want daily tips
 
+## Single Page Website with Three Sections
+
+- mobile-first default layout
+- one page design to focus on the most helpful information
+- webpage is reusable or recyclable by topic or issue
+- target a 1 minute read content
+- remove the friction to get started
+  - annotated visual
+  - animated gifs
+  - accessibility
+  - screenreader
+  
 ## Wireframes
 
 - Refer to MS1 balsamiq
 - [Initial wireframe for desktop](assets\wireframes\InitialWireframeDesktop.png)
 - [Initial wireframe for iPhone](assets\wireframes\InitialWireframeiPhone.png)
+
+##  Website Maintenance
+
+- Easy to maintain and update content
+- Minimal code change maintenance
+- aria compliant
+
+## UX
+
+- Call out Information Architecture how to find information try to suggest at what point in their progress that tips are relevant
+- Single Page: 3 Sections
+  *CI modules (HTML, CSS, User-Centric)
+  *Tools (CI LMS Repl.it, Gitpod Team Unlimited, Github, Git, Slack, Browser Developer Tool) *Key Concepts (CSS-Specificity, Bootstrap-Flexbox)
+  *MS1 Resources
+
 
 ## Colour Scheme
 
@@ -169,6 +168,11 @@ In this section, you should go over the different parts of your project, and des
 - Chrome Developer Tool validation
   - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
 
+- Semantic Checklist
+  - Title Specifically for CI Full Stack Developer New Students
+  - Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
+  - sections
+
 ## Deployment
 
 GitHub Pages was used for deploying the final project version
@@ -223,6 +227,12 @@ GitHub Pages was used for deploying the final project version
 - eventyret_mentor
 - Anna_ci
 
+## Semantic Checklist
+
+- Title Specifically for CI Full Stack Developer New Students
+- Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
+- sections
+
 ## Research
 
 - Customer Research
@@ -259,15 +269,13 @@ Students with little experience but comfortable using a computer as a user
 
 - [Goole Chrome Developer Tools Crash Course](https://www.youtube.com/watch?v=x4q86IjJFag)
 
-- Gitpod
-
-- VSCode
+- IDE
+  - Gitpod
+  - VSCode
 
 ### HTML
 
 - [HTML5](https://www.w3.org/TR/html5/HTML5) Official Site
-
-### Disclaimer
 
 ### Git and GitHub
 
@@ -275,3 +283,5 @@ Students with little experience but comfortable using a computer as a user
 
 - Feature Branches
   - README
+
+### Disclaimer
