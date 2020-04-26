@@ -1,5 +1,5 @@
 
-# New Student Guide
+# New Student Anotated Tips and Resrouce Links
 
 A simple tool for curated FAQ, tooltips and Key concepts for onboarding new students in the Full Stack Web Developer course
 
@@ -96,6 +96,7 @@ In this section, you should go over the different parts of your project, and des
 - hide elements at defined breakpoints
 - aria labels?
 - Form for Collect Usage and Rating of each resource
+- Modal window search
 
 - Home Header section
   - Use to welcome users and provide a `call to action button` to select section
@@ -146,7 +147,9 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing
 
-- Test website using `Google Chrome Dev tools` for various devices sizes responsiveness
+- HTML Validtaor
+
+-Test website using `Google Chrome Dev tools` for various devices sizes responsiveness
 
 - The webpage was tested on  a cell phone and ipad
 
@@ -163,6 +166,8 @@ In this section, you should go over the different parts of your project, and des
 
 - Spell checked all text content.
 
+- Storybook plyground/ Selenium website testing /
+
 - HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
 
 - Chrome Developer Tool validation
@@ -172,6 +177,15 @@ In this section, you should go over the different parts of your project, and des
   - Title Specifically for CI Full Stack Developer New Students
   - Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
   - sections
+
+  - check out if time permits (https://jsfiddle.net/boilerplate/bootstrap)
+
+  - CSS prefixes - autoprefixer.github.io
+
+  - Aria-label is what the screen reader READS OUT to me
+    - images
+    - icon links
+    - modal window link
 
 ## Deployment
 
@@ -205,10 +219,16 @@ GitHub Pages was used for deploying the final project version
 
 ### Content
 
+- Annotated png
 - All text content is original or link
 - slack pinned messages
 - links to 5 star and above read
 - bitesize concepts
+- Animated Gifs
+
+- Bootstrap
+  - Anna_ci
+    - [How to use the Bootstrap 4 grid - Demo site](https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be)
 
 ### Media
 
@@ -283,5 +303,9 @@ Students with little experience but comfortable using a computer as a user
 
 - Feature Branches
   - README
+
+### Online Tools
+-[jsfiddle](https://jsfiddle.net/boilerplate/bootstrap)
+-[tinypng](https://tinypng.com/)
 
 ### Disclaimer
