@@ -60,3 +60,17 @@ img {
 .modal-dialog { 
   max-width: 100%; 
 } 
+
+/* -------------------------------------------Feedback Form */
+
+.center-form {
+  padding-top: 10px;
+  margin: auto;
+  max-width: 70%
+}
+
+button[type='submit'] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+/* -------------------------------------------/Feedback Form */

@@ -11,6 +11,8 @@ A simple tool for curated FAQ, tool tips and Key concepts
 
 - Minimally Viable Product (MVP)
 
+- Track User rating and feedback
+
 ### Who do I think will be using the site?
 
 New students to the course who have little programming experience and have simple how to questions
