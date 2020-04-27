@@ -44,3 +44,19 @@ a, a:hover {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+/* Magnify Images */
+img {
+  margin: auto
+  background-size: 120%; 
+}
+
+/* Modal Fille Device Viewport */
+.modal-body {
+  margin:auto;
+  max-width:100%;
+}
+
+.modal-dialog { 
+  max-width: 100%; 
+} 
