@@ -1,29 +1,29 @@
 
-# New Student Anotated Tips and Resrouce Links
+# New Student Annotated Tips and Resource Links
 
-A simple tool for curated FAQ, tooltips and Key concepts for onboarding new students in the Full Stack Web Developer course
+A simple tool for curated FAQ, tool tips and Key concepts
 
 ## Project Brief
 
-### What does the client want?
+### What does the client want
 
-- Improve student journey experience. Help beginning CI students (HTML/CSS/User through user-centric-frontend) minimize lost study time by alerting them to the most frequently
+- Improve student journey experience. Help to minimize lost study time access to annotated "how to" visuals by topic
 
-- Minimallly Viable Product (MVP)
+- Minimally Viable Product (MVP)
 
 ### Who do I think will be using the site?
 
-CI students working on initial modules HTML/CSS/User through user/centric-frontend
+New students to the course who have little programming experience and have simple how to questions
 
 ### How can I make the site as user friendly as possible for the user?
 
 - Simple and intuitive navigation
-- Find information easily
+- Find relevant information easily
 
 ## What considerations do I need to keep in mind to meet the user/client requirements?
 
-- Remove friction to learning by providing alerts and tips at the most appropriate checkpoints by modules
-- Provide the informaton in combination with concrete contexts for applying the concepts. Just in time
+- Remove friction to learning by providing alerts and tips at the most appropriate checkpoints by topic
+- Provide the informaton in combination with concrete contexts for applying the concepts by adopting the apporach of experiential learning
 
 ## Is there a specific color scheme I need to work around?
 
@@ -39,22 +39,22 @@ CI students working on initial modules HTML/CSS/User through user/centric-fronte
 ## Client Stories/User Stories
 
 - As an X user, I want Y, to achieve Z
-- Student wants to see screens that show how to do something in a tool
+- Student wants to see screens capture that show how to do something in a tool
 - Student wants to download a document
 - Student wants tips related to specific challenges
-- Student want daily tips
+- Student wants daily tips
 
 ## Single Page Website with Three Sections
 
-- mobile-first default layout
-- one page design to focus on the most helpful information
-- webpage is reusable or recyclable by topic or issue
-- target a 1 minute read content
+- Mobile-first default layout
+- One page design to focus on the most helpful information
+- Webpage is reusable or recyclable by topic or issue
+- target 1 minute read content
 - remove the friction to get started
   - annotated visual
   - animated gifs
-  - accessibility
-  - screenreader
+  - Accessibility
+  - screen reader
   
 ## Wireframes
 
@@ -62,11 +62,11 @@ CI students working on initial modules HTML/CSS/User through user/centric-fronte
 - [Initial wireframe for desktop](assets\wireframes\InitialWireframeDesktop.png)
 - [Initial wireframe for iPhone](assets\wireframes\InitialWireframeiPhone.png)
 
-##  Website Maintenance
+## Website Maintenance
 
 - Easy to maintain and update content
 - Minimal code change maintenance
-- aria compliant
+- Aria compliant
 
 ## UX
 
@@ -76,8 +76,7 @@ CI students working on initial modules HTML/CSS/User through user/centric-fronte
   *Tools (CI LMS Repl.it, Gitpod Team Unlimited, Github, Git, Slack, Browser Developer Tool) *Key Concepts (CSS-Specificity, Bootstrap-Flexbox)
   *MS1 Resources
 
-
-## Colour Scheme
+## Color Scheme
 
 - Need recommendations with background, fonts and color scheme
 
@@ -92,9 +91,10 @@ In this section, you should go over the different parts of your project, and des
 - carousel
 - scroll spy
 - modal window
+- image magnification
 - file download
 - hide elements at defined breakpoints
-- aria labels?
+- Aria labels?
 - Form for Collect Usage and Rating of each resource
 - Modal window search
 
@@ -147,11 +147,11 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing
 
-- HTML Validtaor
+- HTML Validataor
 
--Test website using `Google Chrome Dev tools` for various devices sizes responsiveness
+- Test website using `Google Chrome Dev tools` for various devices sizes responsiveness
 
-- The webpage was tested on  a cell phone and ipad
+- The webpage was tested on a cell phone and iPad
 
 - External links to third party websites.
   - fontawsome
@@ -168,6 +168,8 @@ In this section, you should go over the different parts of your project, and des
 
 - Storybook plyground/ Selenium website testing /
 
+- image compression and optimization impact on page load performance
+
 - HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
 
 - Chrome Developer Tool validation
@@ -177,8 +179,7 @@ In this section, you should go over the different parts of your project, and des
   - Title Specifically for CI Full Stack Developer New Students
   - Article Container for New Student FAQ and tips focused on User-Centric Frontend Development
   - sections
-
-  - check out if time permits (https://jsfiddle.net/boilerplate/bootstrap)
+  - check out if time permits [jsfiddle](https://jsfiddle.net/boilerplate/bootstrap)
 
   - CSS prefixes - autoprefixer.github.io
 
@@ -305,6 +306,7 @@ Students with little experience but comfortable using a computer as a user
   - README
 
 ### Online Tools
+
 -[jsfiddle](https://jsfiddle.net/boilerplate/bootstrap)
 -[tinypng](https://tinypng.com/)
 
