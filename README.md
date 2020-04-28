@@ -11,7 +11,7 @@ A simple tool for curated FAQ, tool tips and Key concepts
 
 - Minimally Viable Product (MVP)
 
-- Track User rating and feedback
+- User rating and feedback
 
 ### Who do I think will be using the site?
 
@@ -26,6 +26,8 @@ New students to the course who have little programming experience and have simpl
 
 - Remove friction to learning by providing alerts and tips at the most appropriate checkpoints by topic
 - Provide the informaton in combination with concrete contexts for applying the concepts by adopting the apporach of experiential learning
+- Reduce the frequency of the same FAQ and related issues asked in slack so community can focus on the more important questions
+- Improve the deliveary of answers to FAQs asked in Slack
 
 ## Is there a specific color scheme I need to work around?
 
@@ -37,6 +39,7 @@ New students to the course who have little programming experience and have simpl
 - New CI Student
 - Non-Slack User
 - CI Student Care
+- Slack channel leads
 
 ## Client Stories/User Stories
 
@@ -190,6 +193,18 @@ In this section, you should go over the different parts of your project, and des
     - icon links
     - modal window link
 
+## Code Review
+
+-Bootstrap version are the same for imported bootstrap HTML, CSS, JS
+-Title
+-Article Semantic
+-Header Callout - purpose of the website
+-Sction
+-Aria Navigation to Modal window and images
+-Image Alternates
+-Styling for typography e.g. block quote (highlight important to draw attention)
+-button styles
+
 ## Deployment
 
 GitHub Pages was used for deploying the final project version
@@ -275,6 +290,8 @@ Students with little experience but comfortable using a computer as a user
 
 - [The 2020 UI Design Fundamentals Crash Course](https://www.youtube.com/watch?v=tRpoI6vkqLs)
 - [UX Apprentice](https://www.uxapprentice.com/)
+- [Layout Design Ideas](https://colibriwp.com/blog/website-layout-design-ideas/)
+- [UI Patterns](https://ui-patterns.com/patterns)
 
 ### Wireframe Reference
 
