@@ -9,6 +9,16 @@
   border: 1px solid red;
 }
 
+/* scrollspy to view topic heading */
+.navbar {
+  opacity: 0.8;
+}
+
+blockquote {
+   margin: 0;
+   padding:0.5rem;
+}
+
 p {
   display: inline-block;
   padding: 1.1em;
@@ -18,6 +28,8 @@ p {
 h5 {
   margin-bottom: 0.25em;
 }
+
+
 
 /* body {
     font-family: 'Roboto', sans-serif;
@@ -51,26 +63,20 @@ img {
   background-size: 120%; 
 }
 
-/* Modal Fille Device Viewport */
-.modal-body {
+/* Modal Fill Device Viewport */
+/* .modal-body {
   margin:auto;
   max-width:100%;
+} */
+
+/* .modal-dialog { 
+  max-width: 95%; 
+}  */
+
+/* Size Modal Window */
+@media(min-width: 992px) {
+  .modal-dialog  {
+    max-width: 90%; 
+  }
 }
 
-.modal-dialog { 
-  max-width: 100%; 
-} 
-
-/* -------------------------------------------Feedback Form */
-
-.center-form {
-  padding-top: 10px;
-  margin: auto;
-  max-width: 70%
-}
-
-button[type='submit'] {
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-/* -------------------------------------------/Feedback Form */
