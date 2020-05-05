@@ -3,10 +3,9 @@
 * {
     margin:0;
     padding:0;
-    border:0;  
   /* border: 0; */
   /* turn on debug borders */
-  border: 1px solid red;
+  border: 1px solid  black;
 }
 
 /* scrollspy to view topic heading */
@@ -25,8 +24,16 @@ p {
   line-height: 1.5em;
 }
 
+
+h1, h2, h3, h4
+{
+  margin: 0.25em;
+  border: none;
+}
+
 h5 {
   margin-bottom: 0.25em;
+  border: none;
 }
 
 
@@ -53,15 +60,22 @@ a, a:hover {
 
 /* Page Menu */
 
-.navbar .navbar-nav a {
+/* .navbar navbar-nav nav-item a {
     font-weight: bold;
-}
+    border: none;
+} */
 
 /* Magnify Images */
 img {
-  margin: auto
-  background-size: 120%; 
+  margin: auto;
+  background-size:120%; 
+  border: none;
 }
+
+.card {
+  max-width: 0;
+  padding: 0;
+} 
 
 /* Modal Fill Device Viewport */
 /* .modal-body {
