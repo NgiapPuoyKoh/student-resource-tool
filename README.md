@@ -24,8 +24,7 @@ A feedback form will collect ratings for topic content and user comment.
 
 - [Initial wireframe for iPhone](assets\wireframes\InitialWireframeiPhone.png)
 - [Initial wireframe for desktop](assets\wireframes\InitialWireframeDesktop.png)
-
-- [Digital wireframe iteration with Proof of Concept exploring different compoments](https://github.com/NgiapPuoyKoh/playground)
+- [Digital protoptype wireframe iteration with Proof of Concept exploring different compoments](https://github.com/NgiapPuoyKoh/MS1PrototyeWireframe)
 
 ## Surface
 
