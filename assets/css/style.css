@@ -8,6 +8,13 @@
   border: 1px solid  black;
 }
 
+/* Prevent overflow */
+
+/* row, container, container-fluid {
+  padding: 0;
+  margin: 0;
+  } */
+
 /* scrollspy to view topic heading */
 .navbar {
   opacity: 0.8;
@@ -17,6 +24,10 @@ blockquote {
    margin: 0;
    padding:0.5rem;
 }
+/* 
+.carousel-slide {
+    border: 0;
+} */
 
 p {
   display: inline-block;
@@ -72,6 +83,7 @@ img {
   border: none;
 }
 
+/* Card to fill the column*/
 .card {
   max-width: 0;
   padding: 0;
@@ -94,3 +106,15 @@ img {
   }
 }
 
+/* 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
