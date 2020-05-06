@@ -80,6 +80,8 @@ Devices Used
 Browsers used
 
 - Chrome
+  - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+  - Chrome device emulation for avalibale devices
 
 Use Cases
 
@@ -91,19 +93,27 @@ Use Cases
 
 Validation
 
-- [W3C Makeup Validation Service](https://validator.w3.org)
-  - HTML
-  - CSS
-- [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- HTML [W3C Makeup Validation Service](https://validator.w3.org)
+  - BUG: stray footer reported  for body reported because of existing modal window footer.
 
-Issues/Bugs:
+- CSS [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/)
+  - CSS prefixes [autoprefixer.github.io](autoprefixer.github.io)
 
+  
+-[Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+Issues/Bugs
+
+- Navbar scrollspy does not work on iPhone6S it scrolls past where the item ids for the sections are placed
+  - BUG: Known Issue with iphone and ipad [Issue with fixed bootstrap navbar on mobile](https://www.freecodecamp.org/forum/t/issue-with-fixed-bootstrap-navbar-on-mobile/17533)
+- Modal Feeback Form
+  - BUG: Form does not clear after closing modal window unless session is refreshed
 - Responsiveness medium devices small card sizes in container columns are not the same height
 - Unintended image skip probably due to image sizing, overflow or unintended animation effect
 - Styling of borders, cards, greyscale and typography needs improvement
-- Navbar scrollspy does not work on iPhone6S it scrolls past where the item ids for the sections are placed
 - ARIA screenreader and alt tags for links need to be resolved
 - Semantic improvements for website Search Engine Optimization SEO
+- [Form Validation](https://getbootstrap.com/docs/4.0/components/forms/#validation)
 
 Future Goals
 
@@ -116,6 +126,8 @@ Future Goals
 - Use bot for feedback with decision-tree or simple AI to keep, remove or modify the content
 
 ## Code Review Summary Checklist
+
+[HTML Semantics Cheatsheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
 
 - Bootstrap version are the same for imported bootstrap HTML, CSS, JS
 - Fontawesome latest version
@@ -134,18 +146,18 @@ Future Goals
   - Javascript components
   - Javscript before the closing HTML tag
   - menu button, magnify
-- js loaded using dev tool/network
+- JS loaded using dev tool/network
 
 ## Deployment
 
-GitHub Pages was used t0 deploy the project web page
+GitHub Pages was used to deploy the project web page
 
 Cloning a repository
 
 - Navigate to [https://github.com/NgiapPuoyKoh/](https://github.com/NgiapPuoyKoh/)
 - Click Clone or download
 - Clone HTTPS [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
-- Open git bash
+- Open git bash(Windows) or Terminal(MacOS and Linux)
 - Change current working directory to the location where you want the cloned directory to be made
 - Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
 - Press enter
