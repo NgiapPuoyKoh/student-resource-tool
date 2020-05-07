@@ -1,16 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap'); */
-
-/* scrollspy to view topic heading */
+@import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 
 .container-fluid {
-  border: 1px solid  black; 
+  border: 0.25px solid  rgb(114, 113, 113); 
+  padding-top: 0.25em;
 }
 
+/* Opaque Sticky Navbar with scrollspy for navigating to page sections */
 
 .navbar {
   opacity: 0.8;
   border: 2px solid  black; 
 }
+
+/* Card button styling */
 
 .btn btn-primary btn-block
  {
@@ -18,131 +20,47 @@
   padding: 0;
  }
 
+ /*scrollspy styling*/
+
 .list-group-item {
   background-color: rgb(224, 219, 219);
   color: black;
 }
 
+
+/* Magnify Images for better visibility */
+
+img {
+  margin: auto;
+  background-size:120%; 
+  border: none;
+} 
+
 /* Size Modal Window */
-/* 
+
 @media(min-width: 992px) {
   .modal-dialog  {
     max-width: 90%; 
   }
 }
-*/ 
 
-/* Magnify Images */
-/* img {
-  margin: auto;
-  background-size:120%; 
-  border: none;
-}  */
-
-/* Card to fill the column*/
-/* .card {
-  max-width: 0;
-  padding: 0;
-}  */
-
-/* Size Modal Window */
-/* @media(min-width: 992px) {
-  .modal-dialog  {
+/* Small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) {   .modal-dialog  {
     max-width: 90%; 
   }
-} */
-
-
-/*
-html {
-  border: 5px solid  black; 
 }
 
-.row {
-  border: 3px solid  black; 
-}
-blockquote {
-   margin: 0;
-   padding:0.5rem;
-   border: 2px solid  black; 
-
-}
-/* 
-.carousel-slide {
-    border: 0;
-} */
-
-/*
-p {
-  display: inline-block;
-  padding: 1.1em;
-  line-height: 1.5em;
-}
-*/
-/* 
-h1, h2, h3, h4
-{
-  margin: 0.25em;
-  border: 1px solid  black;
-} */
-
-/*
-h5 {
-  margin-bottom: 0.25em;
-  border: none;
-}
-*/
-
-
-/* 
-body {
-    font-family: 'Roboto', sans-serif;
-} */
-
-/*
-body {
-    font-family: $font-family-base;
-    font-size:   $font-size-base;
-    line-height:   $line-height-base;
-    
-
-    background-color $body-bg;
-}
-
-a, a:hover {
-     color: #9b59b6;
-}
-*/
-
-
-/* Page Menu */
-
-/* .navbar navbar-nav nav-item a {
-    font-weight: bold;
-    border: none;
-} */
-
-
-/* Modal Fill Device Viewport */
-/* .modal-body {
-  margin:auto;
-  max-width:100%;
-} */
-
-/* .modal-dialog { 
+  /* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  .modal-dialog { 
   max-width: 95%; 
-}  */
-
+}  
+}
 
 /* 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
