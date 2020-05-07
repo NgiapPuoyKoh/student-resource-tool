@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 
-.container-fluid {
-  border: 0.25px solid  rgb(114, 113, 113); 
-  padding-top: 0.25em;
+
+/*bootstrap 4 overwrite */
+.border-dark {
+  border-color: #343a4059!important;
+}
+
+/* Titles */
+
+.section-title {
+  border-bottom: 3px solid lightgrey;
+}
+
+
+.subsection-title {
+  padding: 15px 0 15px 0;
 }
 
 /* Opaque Sticky Navbar with scrollspy for navigating to page sections */
 
 .navbar {
   opacity: 0.8;
-  border: 2px solid  black; 
 }
 
 /* Card button styling */
@@ -32,8 +43,9 @@
 
 img {
   margin: auto;
-  background-size:120%; 
+  background-size:120%;
   border: none;
+  object-fit: contain;
 } 
 
 /* Size Modal Window */
@@ -55,6 +67,31 @@ img {
   max-width: 95%; 
 }  
 }
+
+/* Reminder class versus id
+
+Add the following CSS to fix card filling columns:
+    For the parent div:
+    style="display: flex;"
+    For child div:
+    style="align-items: stretch;"
+
+
+This is a div with a class: 
+<div class="col-12 col-md-6" style="padding-bottom: 0.5em;">
+
+<span class="myclass">
+
+.myclass {
+  padding-bottom: 0.25em
+}
+
+<span id="idclass">
+
+#idclass {
+
+}
+*/
 
 /* 
 
