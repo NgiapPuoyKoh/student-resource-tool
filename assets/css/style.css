@@ -19,11 +19,19 @@
 
 /* Opaque Sticky Navbar with scrollspy for navigating to page sections */
 
-.navbar {
+.navbar-opacity {
   opacity: 0.8;
 }
 
 /* Card button styling */
+
+.card-width70 {
+  max-width: 70rem;
+}
+
+.card-width50 {
+  max-width: 50rem;
+}
 
 .btn btn-primary btn-block
  {
