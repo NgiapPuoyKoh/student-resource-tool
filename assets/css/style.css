@@ -1,24 +1,43 @@
 /* @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap'); */
 
+/* scrollspy to view topic heading */
 
-
-/* page header */
-.pageheader {
-  padding: 2rem;
+.container-fluid {
+  border: 1px solid  black; 
 }
 
-/* scrollspy to view topic heading */
+
 .navbar {
   opacity: 0.8;
   border: 2px solid  black; 
 }
+
+.btn btn-primary btn-block
+ {
+  border-radius: .25rem;
+  padding: 0;
+ }
+
+.list-group-item {
+  background-color: rgb(224, 219, 219);
+  color: black;
+}
+
+/* Size Modal Window */
+/* 
+@media(min-width: 992px) {
+  .modal-dialog  {
+    max-width: 90%; 
+  }
+}
+*/ 
 
 /* Magnify Images */
 /* img {
   margin: auto;
   background-size:120%; 
   border: none;
-} */
+}  */
 
 /* Card to fill the column*/
 /* .card {
@@ -75,8 +94,8 @@ h5 {
 */
 
 
-
-/* body {
+/* 
+body {
     font-family: 'Roboto', sans-serif;
 } */
 
