@@ -51,44 +51,83 @@
   color: black;
 }
 
-/* Stackoverflow switch from Bootstrap auto height to auto width
-to handle height to eliminate change when moving between images of different heigths */
-.howtoCarouselImg img {
-  width: auto;
-  height: 620px;
-  max-height: 620px;
-}
-
 /* Magnify Images for better visibility */
 
-img {
-  margin: auto;
-  background-size:120%;
-  border: none;
-  object-fit: contain;
-} 
+/* Stackoverflow switch from Bootstrap auto height to auto width
+to handle height to eliminate change when moving between images of different heigths 
+set different heights fe */
 
-/* Size Modal Window */
-
-@media(min-width: 992px) {
+@media (min-width: 320px) 
+{   
   .modal-dialog  {
     max-width: 90%; 
+  }
+
+  .howtoCarouselImg img {
+    width: auto;
+    max-height: 180px;
+    object-fit: contain; 
   }
 }
 
 /* Small devices (landscape phones, 576px and up*/
+
+
 @media (min-width: 576px) 
 {   .modal-dialog  {
     max-width: 90%; 
   }
+
+  .howtoCarouselImg img {
+    width: auto;
+    max-height: 350px;
+    object-fit: contain; 
+  }
+
 }
 
-  /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) 
-{  .modal-dialog { 
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) { 
+
+  .howtoCarouselImg img {
+  width: auto;
+  max-height: 450px;
+  object-fit: contain; 
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+/* Size Modal Window */
+
+@media(min-width: 992px) {
+
+  .modal-dialog  {
+    max-width: 90%; 
+  }
+    
+  .modal-dialog { 
   max-width: 95%; 
 }  
+
+.howtoCarouselImg img {
+  width: auto;
+  max-height: 500px; 
+  object-fit: contain; 
+} 
 }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+  .howtoCarouselImg img {
+    width: auto;
+    max-height: 600px;
+  }
+} 
 
 /* Reminder class versus id
 
@@ -114,12 +153,3 @@ This is a div with a class:
 
 }
 */
-
-/* 
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
