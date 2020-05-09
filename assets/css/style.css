@@ -15,6 +15,11 @@
 
 .subsection-title {
   padding: 15px 0 15px 0;
+  border-bottom: 2px solid lightgrey;
+}
+
+.scrollspy-item {
+  border-top: 1px solid lightgrey;
 }
 
 /* Opaque Sticky Navbar with scrollspy for navigating to page sections */
@@ -65,13 +70,15 @@ img {
 }
 
 /* Small devices (landscape phones, 576px and up*/
-@media (min-width: 576px) {   .modal-dialog  {
+@media (min-width: 576px) 
+{   .modal-dialog  {
     max-width: 90%; 
   }
 }
 
   /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  .modal-dialog { 
+@media (min-width: 992px) 
+{  .modal-dialog { 
   max-width: 95%; 
 }  
 }
