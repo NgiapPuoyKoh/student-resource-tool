@@ -52,7 +52,6 @@
 }
 
 /* Magnify Images for better visibility */
-
 /* Stackoverflow switch from Bootstrap auto height to auto width
 to handle height to eliminate change when moving between images of different heigths 
 set different heights fe */
@@ -70,8 +69,8 @@ set different heights fe */
   }
 }
 
+/* Media Queries */
 /* Small devices (landscape phones, 576px and up*/
-
 
 @media (min-width: 576px) 
 {   .modal-dialog  {
@@ -107,16 +106,12 @@ set different heights fe */
   .modal-dialog  {
     max-width: 90%; 
   }
-    
-  .modal-dialog { 
-  max-width: 95%; 
-}  
 
 .howtoCarouselImg img {
   width: auto;
   max-height: 500px; 
   object-fit: contain; 
-} 
+  } 
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -128,28 +123,3 @@ set different heights fe */
     max-height: 600px;
   }
 } 
-
-/* Reminder class versus id
-
-Add the following CSS to fix card filling columns:
-    For the parent div:
-    style="display: flex;"
-    For child div:
-    style="align-items: stretch;"
-
-
-This is a div with a class: 
-<div class="col-12 col-md-6" style="padding-bottom: 0.5em;">
-
-<span class="myclass">
-
-.myclass {
-  padding-bottom: 0.25em
-}
-
-<span id="idclass">
-
-#idclass {
-
-}
-*/
