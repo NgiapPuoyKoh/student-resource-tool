@@ -4,15 +4,15 @@ This tool is intended for students to access to curated material and daily tips.
 
 ## Strategy
 
-A minimal viable product that works well on a mobile device and desktop for students. Single page with sections selected for better user experience.
+A minimal viable product that works well on a mobile device and desktop for students. Single page with topic sections selected for better user experience.
 
-The content is easy to update by the curator. Utilize Bootstrap 4 framework for faster development and easy code maintenance.
+The content is easy to update by the curator. Utilize the Bootstrap 4 framework for faster development and easy code maintenance.
 
 ## Scope
 
-Content answers to most FAQs on the community slack channel.The content is categorized using topics.
-
 A single-page web site will simplify and provide a positive user experience.
+
+The content consists of answers to FAQs and important concepts categorized by topic.
 
 Content is accessed using buttons and hyperlinks to access curated material and videos.
 
@@ -29,8 +29,10 @@ A feedback form will collect ratings for topic content and user comment.
 ## Surface
 
 - Single-page website
-  - UX Colors scheme - Greyscale with Red borders
+  - UX Colors scheme - Greyscale
   - Typography
+
+Detail UX design document is available [here](MS1UDX.md)
 
 ## Technologies
 
@@ -53,18 +55,19 @@ A feedback form will collect ratings for topic content and user comment.
     - Scrollspy to provide instrction by steps
   - Modal Feedback Form
   - Fontawesome Icon
+  - Annotated Screen Capture
+  - Single Page with multiple sections
 
 - Bootstrap 4 Components Used:
-  - Bootstrap Grid
-  - Single Page with multiple sections
-  - Navbar with scrollspy
-  - Cards
-  - Buttons with links to vidoes and documents
-  - Text links to resources
-  - Annotated Screen Capture
-  - Carousel
-  - Modal with Image Magnification
-  - Button invoked Modal Feedback Form
+  - [Bootstrap Grid](https://getbootstrap.com/docs/4.0/layout/grid/)
+  - [Navbar with scrollspy](https://getbootstrap.com/docs/4.0/components/navbar/)
+  - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
+  - [Buttons with links to vidoes and documents]([https://getbootstrap.com/docs/4.0/components/buttons/)
+  - [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
+  - [Scrollspy List](https://getbootstrap.com/docs/4.0/components/scrollspy/)
+  - [Modal with Image Magnification](https://getbootstrap.com/docs/4.0/components/modal/)
+  - [Button invoked Modal Feedback Form](https://getbootstrap.com/docs/4.0/components/forms/)
+  - [Text links to resources](https://getbootstrap.com/docs/4.0/components/badge/#links)
 
 - Features left to implement
   - Improve responsiveness for medium size devices
@@ -81,7 +84,7 @@ Browsers used
 
 - Chrome
   - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
-  - Chrome device emulation for avalibale devices
+  - Chrome device emulations for available devices
 
 Use Cases
 
@@ -99,21 +102,28 @@ Validation
 - CSS [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/)
   - CSS prefixes [autoprefixer.github.io](autoprefixer.github.io)
 
-  
--[Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- Accessibility Audit
+  - Issue: Contrast needs imporvement
+
+- [Autoprefixer CSS online](https://autoprefixer.github.io/)
+
+- [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 Issues/Bugs
 
-- Navbar scrollspy does not work on iPhone6S it scrolls past where the item ids for the sections are placed
-  - BUG: Known Issue with iphone and ipad [Issue with fixed bootstrap navbar on mobile](https://www.freecodecamp.org/forum/t/issue-with-fixed-bootstrap-navbar-on-mobile/17533)
+- Navbar scroll spy does not work on iPhone6S. The alignment is below the location of section item ids.
+  - BUG: Known Issue with iPhone and iPad [Issue with fixed bootstrap navbar on mobile](https://www.freecodecamp.org/forum/t/issue-with-fixed-bootstrap-navbar-on-mobile/17533)
 - Modal Feeback Form
-  - BUG: Form does not clear after closing modal window unless session is refreshed
+  - BUG: Form data does not clear after closing modal window unless the browser session is refreshed
 - Responsiveness medium devices small card sizes in container columns are not the same height
 - Unintended image skip probably due to image sizing, overflow or unintended animation effect
 - Styling of borders, cards, greyscale and typography needs improvement
-- ARIA screenreader and alt tags for links need to be resolved
-- Semantic improvements for website Search Engine Optimization SEO
+- Resolve alt tages for ARIA screenreader audit
+- Improve semantics for Search Engine Optimization (SEO)
 - [Form Validation](https://getbootstrap.com/docs/4.0/components/forms/#validation)
+- implement media queries for scrollspy item height
+
+Detail Testing document is available [here](TESTING.md)
 
 Future Goals
 
@@ -122,44 +132,43 @@ Future Goals
 - Use APIs to track usage based on clickstream data
 - API to Track Slack frequently FAQ by module
 - API to extract Slack Pinned messages
-- Improve accessibility using ARIA best practices
+- Improve accessibility using ARIA best practices (contrast ratio)
 - Use bot for feedback with decision-tree or simple AI to keep, remove or modify the content
 
 ## Code Review Summary Checklist
 
 [HTML Semantics Cheatsheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
 
-- Bootstrap version are the same for imported bootstrap HTML, CSS, JS
+- Bootstrap version is the same as the imported bootstrap HTML, CSS, JS scripts
 - Fontawesome latest version
 - Comments
 - Title
 - Article Semantic
-- Header Callout - purpose of the website
+- Header Callout - Purpose of the website
 - Page Sections
 - Aria Navigation to Modal window and images
 - Image Alternates
 - Styling
-  - Borders
-  - typography e.g. block quote (highlight important to draw attention)
+  - borders
+  - typography e.g. block quote highlights importance to draw attention
   - button styles
-  - margins e.g mt- my- etc
+  - margins e.g. mt-, my-, etc.
   - Javascript components
-  - Javscript before the closing HTML tag
+  - Javascript before the closing HTML tag
   - menu button, magnify
 - JS loaded using dev tool/network
 
 ## Deployment
 
-GitHub Pages was used to deploy the project web page
+GitHub Pages was used to deploy the project web page.
 
 Cloning a repository
 
 - Navigate to [https://github.com/NgiapPuoyKoh/](https://github.com/NgiapPuoyKoh/)
 - Click Clone or download
 - Clone HTTPS [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
-- Open git bash(Windows) or Terminal(MacOS and Linux)
-- Change current working directory to the location where you want the cloned directory to be made
-- Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
+- Open git bash(Windows) or Terminal(macOS and Linux)
+- Change the current working directory to the desired location of the target cloned directory.- Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
 - Press enter
 
 Configure GitHub Pages site
@@ -178,12 +187,17 @@ Content
 - Anna Greaves creator of videos and project resources on slack referenced
 - Igor B and Anthony contributors to slack pinned items
 - Publicly available videos and documentation on the internet
+- [Favicon](https://icons8.com/icon/pack/free-icons/ios-glyphs)
 
 Acknowledgment
 
 - Guido Cecilio for mentor guidance
-- Slack Community members who participated as the project stakeholders on the# pair rogramming channel @igor B, @Anthony, @yoda
-- Support from the community as a whole
+- Slack Community members who participated as the project stakeholders on the #pair programming channel
+  - Igor Basuga
+  - Anthony O'Brien
+  - Simem Daehlin
+- Anna Greaves Active Tutor on CI Slack the author MS1 Project documents, videos and pinned messages
+- Support from the CI Tutor and Slack community as a whole
 
 ## References
 
@@ -207,6 +221,16 @@ Acknowledgment
 - [Rapid Wireframing:Finding the Right Product Design](https://www.skillshare.com/classes/Rapid-Wireframing-Finding-the-Right-Product-Design/1947996659)
 
 - [Udemy Wireframing with Balsamiq Mockups](https://www.udemy.com/course/wireframing-with-balsamiq-mockups/learn/lecture/3993718)
+
+### Stackoverflow
+
+-[Twitter Bootstrap carousel different height images cause bouncing arrows](https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows)
+-[Stretch child div height to fill parent that has dynamic height](https://stackoverflow.com/questions/17900122/stretch-child-div-height-to-fill-parent-that-has-dynamic-height)
+
+### Dev Tool
+
+-[How to find computed size of any element in Chrome Developer Tools?](https://stackoverflow.com/questions/10234154/how-to-find-computed-size-of-any-element-in-chrome-developer-tools)
+-[Chrome Developer Tools](https://youtu.be/x4q86IjJFag)
 
 ### Disclaimer
 
