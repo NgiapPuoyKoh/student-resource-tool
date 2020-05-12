@@ -52,7 +52,7 @@ Detail UX design document is available [here](MS1UDX.md)
   - Tools
   - Daily Tips
     - Carousel with annotated screen images
-    - Scrollspy to provide instrction by steps
+    - Scrollspy to provide step by step instructions
   - Modal Feedback Form
   - Fontawesome Icon
   - Annotated Screen Capture
@@ -62,7 +62,7 @@ Detail UX design document is available [here](MS1UDX.md)
   - [Bootstrap Grid](https://getbootstrap.com/docs/4.0/layout/grid/)
   - [Navbar with scrollspy](https://getbootstrap.com/docs/4.0/components/navbar/)
   - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
-  - [Buttons with links to vidoes and documents]([https://getbootstrap.com/docs/4.0/components/buttons/)
+  - [Buttons with links to vidoesand documents](https://getbootstrap.com/docs/4.0/components/buttons/)
   - [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
   - [Scrollspy List](https://getbootstrap.com/docs/4.0/components/scrollspy/)
   - [Modal with Image Magnification](https://getbootstrap.com/docs/4.0/components/modal/)
@@ -137,8 +137,6 @@ Future Goals
 
 ## Code Review Summary Checklist
 
-[HTML Semantics Cheatsheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
-
 - Bootstrap version is the same as the imported bootstrap HTML, CSS, JS scripts
 - Fontawesome latest version
 - Comments
@@ -157,6 +155,8 @@ Future Goals
   - Javascript before the closing HTML tag
   - menu button, magnify
 - JS loaded using dev tool/network
+
+Reference: [HTML Semantics Cheatsheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
 
 ## Deployment
 
@@ -224,13 +224,13 @@ Acknowledgment
 
 ### Stackoverflow
 
--[Twitter Bootstrap carousel different height images cause bouncing arrows](https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows)
--[Stretch child div height to fill parent that has dynamic height](https://stackoverflow.com/questions/17900122/stretch-child-div-height-to-fill-parent-that-has-dynamic-height)
+- [Twitter Bootstrap carousel different height images cause bouncing arrows](https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows)
+- [Stretch child div height to fill parent that has dynamic height](https://stackoverflow.com/questions/17900122/stretch-child-div-height-to-fill-parent-that-has-dynamic-height)
 
 ### Dev Tool
 
--[How to find computed size of any element in Chrome Developer Tools?](https://stackoverflow.com/questions/10234154/how-to-find-computed-size-of-any-element-in-chrome-developer-tools)
--[Chrome Developer Tools](https://youtu.be/x4q86IjJFag)
+- [How to find computed size of any element in Chrome Developer Tools?](https://stackoverflow.com/questions/10234154/how-to-find-computed-size-of-any-element-in-chrome-developer-tools)
+- [Chrome Developer Tools](https://youtu.be/x4q86IjJFag)
 
 ### Disclaimer
 
