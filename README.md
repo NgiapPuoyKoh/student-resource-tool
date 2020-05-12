@@ -75,18 +75,18 @@ Detail UX design document is available [here](MS1UDX.md)
 
 ## Testing
 
-Devices Used
+### Devices Used
 
 - iPhone 6S
 - Lenovo laptop L421
 
-Browsers used
+### Browsers Used
 
 - Chrome
   - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
   - Chrome device emulations for available devices
 
-Use Cases
+### Use Cases
 
 - Review workflow for a milestone project
 - Confirm links are working for Concepts and Tool sections
@@ -94,22 +94,21 @@ Use Cases
 - Daly tip Scrollspy
 - Modal feedback form renders and closes
 
-Validation
+### Validation
 
 - HTML [W3C Makeup Validation Service](https://validator.w3.org)
   - BUG: stray footer reported  for body reported because of existing modal window footer.
-
 - CSS [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/)
-  - CSS prefixes [autoprefixer.github.io](autoprefixer.github.io)
+- CSS prefixes [autoprefixer.github.io](autoprefixer.github.io)
 
 - Accessibility Audit
-  - Issue: Contrast needs imporvement
+  Contrast ratio needsimprovement
 
 - [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-Issues/Bugs
+### Issues/Bugs
 
 - Navbar scroll spy does not work on iPhone6S. The alignment is below the location of section item ids.
   - BUG: Known Issue with iPhone and iPad [Issue with fixed bootstrap navbar on mobile](https://www.freecodecamp.org/forum/t/issue-with-fixed-bootstrap-navbar-on-mobile/17533)
@@ -125,7 +124,7 @@ Issues/Bugs
 
 Detail Testing document is available [here](TESTING.md)
 
-Future Goals
+### Future Goals
 
 - Scripts to Automated content updates
 - Scripts to automate daily Quickstart
@@ -162,7 +161,7 @@ Reference: [HTML Semantics Cheatsheet](https://learn-the-web.algonquindesign.ca/
 
 GitHub Pages was used to deploy the project web page.
 
-Cloning a repository
+### Cloning a repository
 
 - Navigate to [https://github.com/NgiapPuoyKoh/](https://github.com/NgiapPuoyKoh/)
 - Click Clone or download
@@ -171,7 +170,7 @@ Cloning a repository
 - Change the current working directory to the desired location of the target cloned directory.- Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
 - Press enter
 
-Configure GitHub Pages site
+### Configure GitHub Pages site
 
 - Navigate to the Github remote repository [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project)
 - Click on settings
@@ -182,14 +181,14 @@ Configure GitHub Pages site
 
 ## Credits
 
-Content
+### Content
 
 - Anna Greaves creator of videos and project resources on slack referenced
 - Igor B and Anthony contributors to slack pinned items
 - Publicly available videos and documentation on the internet
 - [Favicon](https://icons8.com/icon/pack/free-icons/ios-glyphs)
 
-Acknowledgment
+### Acknowledgment
 
 - Guido Cecilio for mentor guidance
 - Slack Community members who participated as the project stakeholders on the #pair programming channel
