@@ -43,7 +43,7 @@
    1. Radius
 
 2. Title and Subtitle
-   2. Border bottom
+   2. Border bottomgg
    2. Fonts are consistent
 
 3. Scrollspy
