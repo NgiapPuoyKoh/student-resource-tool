@@ -18,26 +18,31 @@ Project Goal: Creation of MVP product that is useful, usable and valuable
   - FAQ resource for students
   - Tool for the curator to upload answers to FAQ
   - Easy to update and maintain
-  - Effective and timely delivery available to students to minimize FAQ activity in Slack and Tutor channels
+  - Timely and effecctive delivery of information to students and minimize FAQ activity in Slack and Tutor channels
   - Information content
   - Answers to FAQ by topic and category
 
 ## Scope Plane
 
 - In-Scope Features
-  -One page website with 3 sections
-  -Delivery
+  - Onepage website with 3 sections
+  - Delivery
 
--Personas and User Stories
+- Personas and User Stories
+  - Student wants to understand the workflow for a project
+  - Student wants information related to concepts and how to use tools
+  - Student wants quick start information on how to perform a task
+  - Student wants access to daily tips
+  - Curator wants to be able to update content for web page easily
 
-- Minimize documentation by developing a proof of concept using Bootstrap4 wireframe published on Git Pages
+- Minimize documentation by developing a proof of concept using Bootstrap 4 wireframe published on Git Pages. Here is the link [Digital protoptype wireframe iteration with Proof of Concept exploring different compoments](https://github.com/NgiapPuoyKoh/MS1PrototyeWireframe)
 
--Future Features
-   -Cycle FAO times weekly
-   -Track usage
-   -Improve answers to FAQ
-   -Chatbot
-   -Search
+- Future Features
+  - Cycle FAO times weekly
+  - Track usage
+  - Improve answers to FAQ
+  - Chatbot
+  - Search
 
 ## Structure Plane - Functional Specifications and Content Requirements
 
@@ -52,7 +57,7 @@ Traceability of components to business requirements
   - Slack downloadable pdfs
   - External URL links videos and resources
 - Interaction
-  - Guided Navigation based on how information is organized
+  - Guide navigation by organizing the flow of information
   - Quick access using menu and mouse click based on FAQ
 - Information Design
   - Topic/category (Modules, Tools and Concept)- - - Deliver information based on the timing of when FAQ is typically asked
@@ -83,27 +88,27 @@ Traceability of components to business requirements
   - UX Colors
   - Typography
 
-- Project planning with mentor
+- Project planning session with a mentor
   - Fixed Sticky NAVBAR issue by removing extra parent container that is not necessary
-  - Modal Window use to enhance visual mangnify for jpg images for smaller devices that does not enable touch gestures to enlarge image
-  - Hide feedback from parent web page  by using a button to access modal with feedback form to remove section from parent web page
-  - Simple footer to indicate end of web age
+  - Modal Window use to enhance visual magnify for jpg images for smaller devices that do not enable touch gestures to enlarge image
+  - Use a button to access a modal with a feedback form to replace the feedback section on the web page
+  - Add a simple footer at the web page
 
 - fontawsome icons for consideration [fontawesome gallery](https://fontawesome.com/icons?d=gallery&m=free)
-   -[slack](https://fontawesome.com/icons/slack-hash?style=brands)
-   -[slack](https://fontawesome.com/icons/slack?style=brands)
-   -[git](https://fontawesome.com/icons/git?style=brands)
-   -[copyright](https://fontawesome.com/icons/copyright?style=regular)
-   -[comment](https://fontawesome.com/icons/comment-dots?style=regular)
-   -[book-reader](https://fontawesome.com/icons/book-reader?style=solid)
-   -[bootstrap](https://fontawesome.com/icons/bootstrap?style=brands)
-   -[chalkboard](https://fontawesome.com/icons/chalkboard?style=solid)
-   -[chalkboard with teacher](https://fontawesome.com/icons/chalkboard-teacher?style=solid)
-   -[map](https://fontawesome.com/icons/map?style=regular)
+  - [slack](https://fontawesome.com/icons/slack-hash?style=brands)
+  - [slack](https://fontawesome.com/icons/slack?style=brands)
+  - [git](https://fontawesome.com/icons/git?style=brands)
+  - [copyright](https://fontawesome.com/icons/copyright?style=regular)
+  - [comment](https://fontawesome.com/icons/comment-dots?style=regular)
+  - [book-reader](https://fontawesome.com/icons/book-reader?style=solid)
+  - [bootstrap](https://fontawesome.com/icons/bootstrap?style=brands)
+  - [chalkboard](https://fontawesome.com/icons/chalkboard?style=solid)
+  - [chalkboard with teacher](https://fontawesome.com/icons/chalkboard-teacher?style=solid)
+  - [map](https://fontawesome.com/icons/map?style=regular)
 
 - [Favicon](https://icons8.com/icon/pack/free-icons/ios-glyphs)
 
-- Project review with mentor
+- Project review with a mentor
   - UI enhancements with borders and padding for page sections
   - Button Radius
   - Card alignment and stretch to fill the parent container
