@@ -6,6 +6,16 @@
   border-color: #343a4059!important;
 }
 
+/*improve visibity of navbar-nav and nav-link*/
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
 /* Titles */
 
 .section-title {
