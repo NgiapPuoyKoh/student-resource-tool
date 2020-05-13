@@ -95,10 +95,10 @@ Traceability of components to business requirements
   - Add a simple footer at the web page
 
 - Card Samples
-  - [Cardsssets\uipatterns\cards.jpg](assets\uipatterns\Cards.jpg)
-  - [Cards Text](assets\uipatterns\CardsText.jpg)
-  - [Card Headline Thumbnails](assets\uipatterns\HeadlineThumbnailsGallery.jpg)
-  - [Card Silhouette](assets\uipatterns\SilhouetteView.jpg)
+  - [Cards](\assets\uipatterns\Cards.jpg)
+  - [Cards Text](\assets\uipatterns\CardsText.jpg)git st
+  - [Card Headline Thumbnails](\assets\uipatterns\HeadlineThumbnailsGallery.jpg)
+  - [Card Silhouette](\assets\uipatterns\SilhouetteView.jpg)
 
 - fontawsome icons for consideration [fontawesome gallery](https://fontawesome.com/icons?d=gallery&m=free)
   - [slack](https://fontawesome.com/icons/slack-hash?style=brands)
