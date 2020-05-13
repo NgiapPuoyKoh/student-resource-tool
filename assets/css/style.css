@@ -122,6 +122,12 @@ set different heights fe */
   max-height: 500px; 
   object-fit: contain; 
   } 
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(60%);
+}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
