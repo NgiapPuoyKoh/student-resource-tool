@@ -1,6 +1,6 @@
 # Student Resource and Annotated Tips Tool
 
-This tool is intended for students to access to curated material and daily tips. The curator can easily update the content.
+This tool is intended for students to access curated material and daily tips. The curator can easily update the content.
 
 ## Strategy
 
@@ -163,21 +163,20 @@ GitHub Pages was used to deploy the project web page.
 
 ### Cloning a repository
 
-- Navigate to [https://github.com/NgiapPuoyKoh/](https://github.com/NgiapPuoyKoh/)
+- Navigate to [https://github.com/NgiapPuoyKoh/student-resource-tool](https://github.com/NgiapPuoyKoh/student-resource-tool)
 - Click Clone or download
-- Clone HTTPS [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
+- Clone HTTPS [https://github.com/NgiapPuoyKoh/student-resource-tool](https://github.com/NgiapPuoyKoh/student-resource-tool)
 - Open git bash(Windows) or Terminal(macOS and Linux)
-- Change the current working directory to the desired location of the target cloned directory.- Type git clone [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project.git)
+- Change the current working directory to the desired location of the target cloned directory.- Type git clone [https://github.com/NgiapPuoyKoh/student-resource-tool.git](https://github.com/NgiapPuoyKoh/student-resource-tool.git)
 - Press enter
 
 ### Configure GitHub Pages site
 
-- Navigate to the Github remote repository [https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project](https://github.com/NgiapPuoyKoh/user-centric-frontend-milestone-project)
+- Navigate to the Github remote repository [https://github.com/NgiapPuoyKoh/student-resource-tool](https://github.com/NgiapPuoyKoh/student-resource-tool)
 - Click on settings
 - Scroll down the page to GITHUB Pages section
 - For the Source select "master branch"
-- Wait a few minutes and then access the completed project using this link [https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/
-](https://ngiappuoykoh.github.io/user-centric-frontend-milestone-project/)
+- Wait a few minutes and then access the completed project using this link [https://ngiappuoykoh.github.io/student-resource-tool/](https://ngiappuoykoh.github.io/student-resource-tool/)
 
 ## Credits
 
