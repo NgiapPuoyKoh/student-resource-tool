@@ -1,4 +1,4 @@
-# Milestone 1 Project User Experience UXD Process
+# Milestone 1 Project User Experience UDX Process
 
 Project Goal: Creation of MVP product that is useful, usable and valuable
 
