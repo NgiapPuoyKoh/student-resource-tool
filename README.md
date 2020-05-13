@@ -98,8 +98,8 @@ Detail UX design document is available [here](MS1UXD.md)
 
 - HTML [W3C Makeup Validation Service](https://validator.w3.org)
   - BUG: stray footer reported  for body reported because of existing modal window footer.
-- CSS [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/)
-- CSS prefixes [autoprefixer.github.io](autoprefixer.github.io)
+- [CSS W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 - Accessibility Audit
   Contrast ratio needsimprovement
