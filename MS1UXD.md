@@ -18,7 +18,7 @@ Project Goal: Creation of MVP product that is useful, usable and valuable
   - FAQ resource for students
   - Tool for the curator to upload answers to FAQ
   - Easy to update and maintain
-  - Timely and effecctive delivery of information to students and minimize FAQ activity in Slack and Tutor channels
+  - Timely and effective delivery of information to students and minimize FAQ activity in Slack and Tutor channels
   - Information content
   - Answers to FAQ by topic and category
 
@@ -96,9 +96,9 @@ Traceability of components to business requirements
 
 - Card Samples
   - [Cards](\assets\uipatterns\Cards.jpg)
-  - [Cards Text](\assets\uipatterns\CardsText.jpg)git st
-  - [Card Headline Thumbnails](\assets\uipatterns\HeadlineThumbnailsGallery.jpg)
-  - [Card Silhouette](\assets\uipatterns\SilhouetteView.jpg)
+  - [Cards Text](\assets\uipatterns\CardsText.jpg)
+  - [Card Headline Thumbnails](assets\uipatterns\HeadlineThumbnailsGallery.jpg)
+  - [Card Silhouette](assets\uipatterns\silhouetteView.jpg)
 
 - fontawsome icons for consideration [fontawesome gallery](https://fontawesome.com/icons?d=gallery&m=free)
   - [slack](https://fontawesome.com/icons/slack-hash?style=brands)
