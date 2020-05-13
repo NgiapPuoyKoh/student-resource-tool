@@ -32,7 +32,7 @@ A feedback form will collect ratings for topic content and user comment.
   - UX Colors scheme - Greyscale
   - Typography
 
-Detail UX design document is available [here](MS1UDX.md)
+Detail UX design document is available [here](MS1UXD.md)
 
 ## Technologies
 
