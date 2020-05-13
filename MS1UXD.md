@@ -35,7 +35,7 @@ Project Goal: Creation of MVP product that is useful, usable and valuable
   - Student wants access to daily tips
   - Curator wants to be able to update content for web page easily
 
-- Minimize documentation by developing a proof of concept using Bootstrap 4 wireframe published on Git Pages. Here is the link [Digital protoptype wireframe iteration with Proof of Concept exploring different compoments](https://github.com/NgiapPuoyKoh/MS1PrototyeWireframe)
+- Minimize documentation by developing a proof of concept using Bootstrap 4 wireframe published on Git Pages. Here is the link [Digital protoptype wireframe iteration with Proof of Concept exploring different compoments](https://ngiappuoykoh.github.io/MS1PrototypeWireframe/)
 
 - Future Features
   - Cycle FAO times weekly
@@ -93,6 +93,12 @@ Traceability of components to business requirements
   - Modal Window use to enhance visual magnify for jpg images for smaller devices that do not enable touch gestures to enlarge image
   - Use a button to access a modal with a feedback form to replace the feedback section on the web page
   - Add a simple footer at the web page
+
+- Card Samples
+  - [Cards ](assets\uipatterns\cards.jpg)
+  - [Cards Text](assets\uipatterns\cardsText.jpg)
+  - [Card Headline Thumbnails](assets\uipatterns\headlineThumbnailsGallery.jpg)
+  - [Card Silhouette](assets\uipatterns\silhouetteView.jpg)
 
 - fontawsome icons for consideration [fontawesome gallery](https://fontawesome.com/icons?d=gallery&m=free)
   - [slack](https://fontawesome.com/icons/slack-hash?style=brands)
