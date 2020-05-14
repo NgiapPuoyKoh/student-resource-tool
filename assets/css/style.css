@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 
-
 /*bootstrap 4 overwrite */
 .border-dark {
   border-color: #343a4059!important;
+}
+
+/* Opaque Sticky Navbar with scrollspy for navigating to page sections */
+
+.navbar-opacity {
+  opacity: 0.8;
 }
 
 /*improve visibity of navbar-nav and nav-link*/
@@ -22,10 +27,21 @@
   border-bottom: 3px solid lightgrey;
 }
 
-
 .subsection-title {
   padding: 15px 0 15px 0;
   border-bottom: 2px solid lightgrey;
+}
+
+.form-buttoncontainer {
+  padding-top: 0.5em; 
+  padding-bottom: 0.5em;
+} 
+
+ /*scrollspy styling*/
+
+.list-group-item {
+  background-color: rgb(224, 219, 219);
+  color: black;
 }
 
 .scrollspy-center {
@@ -36,11 +52,13 @@
   border-top: 1px solid lightgrey;
 }
 
-/* Opaque Sticky Navbar with scrollspy for navigating to page sections */
-
-.navbar-opacity {
-  opacity: 0.8;
+.scrollspy-spaceitems {
+  overflow-y: scroll; 
+  height:25vh; 
+  position:relative;
+  padding-bottom: 0.25em;
 }
+
 
 /* Card button styling */
 
@@ -58,12 +76,6 @@
   padding: 0;
  }
 
- /*scrollspy styling*/
-
-.list-group-item {
-  background-color: rgb(224, 219, 219);
-  color: black;
-}
 
 /* Magnify Images for better visibility */
 /* Stackoverflow switch from Bootstrap auto height to auto width
