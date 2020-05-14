@@ -28,6 +28,10 @@
   border-bottom: 2px solid lightgrey;
 }
 
+.scrollspy-center {
+  justify-content: center;
+}
+
 .scrollspy-item {
   border-top: 1px solid lightgrey;
 }
