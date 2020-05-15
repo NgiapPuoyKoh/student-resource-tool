@@ -90,7 +90,7 @@ set different heights fe */
 
   .howtoCarouselImg img {
     width: auto;
-    max-height: 180px;
+    max-height: 230px;
     object-fit: contain; 
   }
 }
