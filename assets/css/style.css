@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 
+
 header {
   font-family: "Roboto", sans-serif;
 }
 
 body {
   font-family: "Exo", sans-serif;
+  font-size: 1rem;
 }
 
 /*bootstrap 4 overwrite */
@@ -21,35 +23,35 @@ body {
 
 /*improve visibity of navbar-nav and nav-link*/
 .navbar-light .navbar-toggler {
-  color: rgba(0,0,0,.5);
-  border-color: rgba(0,0,0,.5);
+  color: #00000080;
+  border-color: #00000080;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 /* Titles */
 
 .section-title {
-  border-bottom: 3px solid lightgrey;
+  border-bottom: 0.2rem solid #d3d3d3;
 }
 
 .subsection-title {
-  padding: 15px 0 15px 0;
-  border-bottom: 2px solid lightgrey;
+  padding: 1rem 0 1rem 0;
+  border-bottom: 0.1rem solid #d3d3d3;
 }
 
 .form-buttoncontainer {
-  padding-top: 0.5em; 
-  padding-bottom: 0.5em;
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem;
 } 
 
  /*scrollspy styling*/
 
 .list-group-item {
-  background-color: rgb(224, 219, 219);
-  color: black;
+  background-color: #e0dbdb;
+  color: #000000;
 }
 
 .scrollspy-center {
@@ -57,14 +59,14 @@ body {
 }
 
 .scrollspy-item {
-  border-top: 1px solid lightgrey;
+  border-top: 0.06rem solid #d3d3d3;
 }
 
 .scrollspy-spaceitems {
   overflow-y: scroll; 
   height:25vh; 
   position:relative;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.25rem;
 }
 
 
@@ -81,7 +83,7 @@ body {
 .btn-primary
  {
   border-radius: .25rem;
-  padding: 0;
+  padding: 0.25rem;
  }
 
 
@@ -93,7 +95,7 @@ set different heights fe */
 @media (min-width: 320px) 
 {   
   .modal-dialog  {
-    max-width: 90%; 
+    max-width: 90vh; 
   }
 
   .howtoCarouselImg img {
@@ -108,7 +110,7 @@ set different heights fe */
 
 @media (min-width: 576px) 
 {   .modal-dialog  {
-    max-width: 90%; 
+    max-width: 90vh; 
   }
 
   .howtoCarouselImg img {
@@ -138,7 +140,7 @@ set different heights fe */
 @media(min-width: 992px) {
 
   .modal-dialog  {
-    max-width: 90%; 
+    max-width: 90vh; 
   }
 
 .howtoCarouselImg img {
