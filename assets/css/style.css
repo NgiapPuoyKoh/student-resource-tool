@@ -103,6 +103,10 @@ set different heights fe */
     max-height: 230px;
     object-fit: contain; 
   }
+
+  .form-feedbacktool {
+      padding-top: 0.5rem;
+  }
 }
 
 /* Media Queries */
@@ -165,3 +169,13 @@ set different heights fe */
     max-height: 600px;
   }
 } 
+
+@media (min-width: 2560px) {
+
+  .card-minwidth {
+    min-width: 50rem;
+  }
+}
+
+
+
