@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 
+html {
+  scroll-behavior: smooth
+}
 
 header {
   font-family: "Roboto", sans-serif;
