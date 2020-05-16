@@ -95,7 +95,7 @@ set different heights fe */
 @media (min-width: 320px) 
 {   
   .modal-dialog  {
-    max-width: 90vh; 
+    max-width: 90%; 
   }
 
   .howtoCarouselImg img {
@@ -110,7 +110,7 @@ set different heights fe */
 
 @media (min-width: 576px) 
 {   .modal-dialog  {
-    max-width: 90vh; 
+    max-width: 90%; 
   }
 
   .howtoCarouselImg img {
@@ -140,7 +140,7 @@ set different heights fe */
 @media(min-width: 992px) {
 
   .modal-dialog  {
-    max-width: 90vh; 
+    max-width: 90%; 
   }
 
 .howtoCarouselImg img {
