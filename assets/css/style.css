@@ -99,7 +99,7 @@ set different heights fe */
 {   
   .modal-dialog  {
     max-width: 95%; 
-    max-height: 95%;
+    max-height: 80%;
   }
 
   .howtoCarouselImg img {
