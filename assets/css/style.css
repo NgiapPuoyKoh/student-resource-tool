@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
-
 html {
-  scroll-behavior: smooth
+  scroll-behavior: auto;
 }
 
 header {
@@ -13,10 +12,17 @@ body {
   font-size: 1rem;
 }
 
+h5 {
+  font-weight: bolder;
+}
+
+
 /*bootstrap 4 overwrite */
+
 .border-dark {
   border-color: #343a4059!important;
 }
+
 
 /* Opaque Sticky Navbar with scrollspy for navigating to page sections */
 
@@ -24,7 +30,9 @@ body {
   opacity: 0.8;
 }
 
+
 /*improve visibity of navbar-nav and nav-link*/
+
 .navbar-light .navbar-toggler {
   color: #00000080;
   border-color: #00000080;
@@ -33,6 +41,7 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
 }
+
 
 /* Titles */
 
@@ -46,11 +55,12 @@ body {
 }
 
 .form-buttoncontainer {
-  padding-top: 0.5rem; 
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-} 
+}
 
- /*scrollspy styling*/
+
+/*scrollspy styling*/
 
 .list-group-item {
   background-color: #e0dbdb;
@@ -66,10 +76,11 @@ body {
 }
 
 .scrollspy-spaceitems {
-  overflow-y: scroll; 
-  height:25vh; 
-  position:relative;
+  overflow-y: scroll;
+  height: 25vh;
+  position: relative;
   padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
 }
 
 
@@ -83,103 +94,109 @@ body {
   max-width: 50rem;
 }
 
-.btn-primary
- {
-  border-radius: .25rem;
+.btn-primary {
+  border-radius: 0.25rem;
   padding: 0.25rem;
- }
+  font-weight: bolder;
+  font-size: 1.20rem;
+}
+
+#list-gitpod {
+  font-size: 1.5rem;
+}
+
+.gitlinks {
+  font-weight: bold;
+  font-size: 1.20rem;
+}
+
+
+/* Media Queries */
 
 
 /* Magnify Images for better visibility */
+
+
 /* Stackoverflow switch from Bootstrap auto height to auto width
 to handle height to eliminate change when moving between images of different heigths 
 set different heights fe */
 
-@media (min-width: 320px) 
-{   
-  .modal-dialog  {
-    max-width: 95%; 
+@media (min-width: 320px) {
+  .modal-dialog {
+    max-width: 95%;
     max-height: 80%;
   }
-
   .howtoCarouselImg img {
     width: auto;
     max-height: 230px;
-    object-fit: contain; 
+    object-fit: contain;
   }
-
   .form-feedbacktool {
-      padding-top: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .list-group-item {
+    padding: 0.5rem;
   }
 }
 
-/* Media Queries */
+
 /* Small devices (landscape phones, 576px and up*/
 
-@media (min-width: 576px) 
-{   .modal-dialog  {
-    max-width: 90%; 
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 90%;
   }
-
   .howtoCarouselImg img {
     width: auto;
     max-height: 350px;
-    object-fit: contain; 
+    object-fit: contain;
   }
-
 }
+
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) { 
-
+@media (min-width: 768px) {
   .howtoCarouselImg img {
-  width: auto;
-  max-height: 450px;
-  object-fit: contain; 
+    width: auto;
+    max-height: 450px;
+    object-fit: contain;
+  }
 }
 
-}
 
 /* Large devices (desktops, 992px and up) */
+
 
 /* Size Modal Window */
 
 @media(min-width: 992px) {
-
-  .modal-dialog  {
-    max-width: 90%; 
+  .modal-dialog {
+    max-width: 90%;
   }
-
-.howtoCarouselImg img {
-  width: auto;
-  max-height: 500px; 
-  object-fit: contain; 
-  } 
-
-.carousel-control-next,
-.carousel-control-prev {
+  .howtoCarouselImg img {
+    width: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
     filter: invert(60%);
+  }
 }
 
-}
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
-
   .howtoCarouselImg img {
     width: auto;
     max-height: 600px;
   }
-} 
+}
 
 @media (min-width: 2560px) {
-
   .card-minwidth {
     min-width: 50rem;
   }
 }
-
-
-
