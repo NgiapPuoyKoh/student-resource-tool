@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
 html {
   scroll-behavior: auto;
@@ -97,6 +104,8 @@ h5 {
 }
 
 .scrollspy-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -178,6 +187,7 @@ set different heights fe */
   .howtoCarouselImg img {
     width: auto;
     max-height: 350px;
+    -o-object-fit: contain;
     object-fit: contain;
   }
 }
@@ -189,6 +199,7 @@ set different heights fe */
   .howtoCarouselImg img {
     width: auto;
     max-height: 450px;
+    -o-object-fit: contain;
     object-fit: contain;
   }
 }
@@ -206,10 +217,12 @@ set different heights fe */
   .howtoCarouselImg img {
     width: auto;
     max-height: 500px;
+    -o-object-fit: contain;
     object-fit: contain;
   }
   .carousel-control-next,
   .carousel-control-prev {
+    -webkit-filter: invert(60%);
     filter: invert(60%);
   }
 }
