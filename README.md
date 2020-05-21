@@ -192,7 +192,7 @@ Goal: Clean, Minimalist and Effective intended primarily for use on a mobile dev
 
 - [Modal with Image Magnification](https://getbootstrap.com/docs/4.0/components/modal/)
 
-- [Button invoked Modal Feedback Form with radio oprtions](https://getbootstrap.com/docs/4.0/components/forms/)
+- [Button invoked Modal Feedback Form with required radio options](https://getbootstrap.com/docs/4.0/components/forms/)
 - [Text links to resources](https://getbootstrap.com/docs/4.0/components/badge/#links)
 
 ### HTML Components
@@ -220,7 +220,7 @@ Scrollspy to list steps and scrollable panel for details for each step
 
 ### Feature 5
 
-Modal Feedback form with radio options and text area will trigger an alert acknowledgment. Implement form validation for required radio options selection on submit.
+Modal Feedback form with required radio options and text area will trigger an alert acknowledgment. Implement form validation for required radio options selection on submit.
 
 ### Feature 6
 
@@ -319,15 +319,15 @@ Applied ARIA Labels to elements for screenreader processing
 
 - Maintain the same height for cards responsiveness medium devices small card sizes in container columns are not the same height
 
-- Carousel slider skippingdue to different image height and size
+- Carousel slider skipping due to different image height and size
 
-- Resolve alt tages for ARIA screenreader audit
+- Resolve aria_labels reported on ARIA screenreader audit
 
-- [Form Validation require selction of radio items](https://getbootstrap.com/docs/4.0/components/forms/#validation)
+- [Form Validation implemented to require selection of radio items](https://getbootstrap.com/docs/4.0/components/forms/#validation)
 
 - Implement media queries for scrollspy scrolable panel height
 
-- Upgrade to Bootstrap 4.5 form radio item columns fail to be responsive
+- Upgrade to Bootstrap 4.5 resulted in form radio item columns failing to be responsive
   - BUG: Modal Window responsiveness broke requiring forced ```<div class="col-xs-6 col-sm-4">``` and class to adjust stacking or radio items on form for smaller devices
 
 ### Open Issues
@@ -355,14 +355,14 @@ Applied ARIA Labels to elements for screenreader processing
 ### Future Goals
 
 - For smaller device swap Carousel with Modal to include magnified images
-- Scripts to Automated content updates
+- Scripts to automated content updates
 - Scripts to automate daily Quickstart
 - Use APIs to track usage based on clickstream data
-- API to Track Slack frequently FAQ by module
-- API to extract Slack Pinned messages
-- Improve accessibility using ARIA best practices (contrast ratio)
-- [Aria-labels](https://www.aditus.io/aria/aria-label/)
-- Use bot to collect feedback
+- API to rrack Slack frequently FAQ by module
+- API to extract Slack pinned messages
+- Improve accessibility by implementing ARIA and UI best practices to improve the contrast ratio
+- [Implement Aria standards](https://www.aditus.io/aria/aria-label/)
+- Implement a chatbot to collect feedback
 
 ## Deployment
 
