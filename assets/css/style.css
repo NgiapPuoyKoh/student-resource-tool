@@ -5,6 +5,15 @@ html {
 
 header {
   font-family: "Roboto", sans-serif;
+  background: #444655;  
+}
+
+h1 {
+  color: #F12E5E;
+}
+
+h2 {
+  color: #444655;
 }
 
 body {
@@ -12,8 +21,26 @@ body {
   font-size: 1rem;
 }
 
+h4 {
+  font-weight: bolder;
+  color:444655;
+}
+
 h5 {
   font-weight: bolder;
+  color: #007BFF;
+}
+
+.card {
+  border-color: #444655;
+  border-width: 0.1rem;;
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #F12E5E;
+  background: #444655;
 }
 
 
@@ -40,6 +67,7 @@ h5 {
 
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
+  font-weight:bold;
 }
 
 
@@ -128,8 +156,8 @@ set different heights fe */
   }
   .howtoCarouselImg img {
     width: auto;
-    max-height: 230px;
-    object-fit: contain;
+    max-height: 180px;
+    /* object-fit: contain; */
   }
   .form-feedbacktool {
     padding-top: 0.5rem;
