@@ -108,8 +108,8 @@ Interface and Information Design Details
 - Proof of concept implementing wireframe using Bootstrap on gitpage
 - Planning call with Mentor to review Proof of Concept and wireframes
 - Wireframes
-  - [Initial wireframe for iPhone](wireframes\InitialWireframeDesktop.png)
-  - [Initial wireframe for desktop](wireframes\InitialWireframeiPhone.png)
+  - [Initial wireframe for iPhone](https://github.com/NgiapPuoyKoh/student-resource-tool/blob/master/wireframes/InitialWireframeiPhone.png)
+  - [Initial wireframe for desktop](https://github.com/NgiapPuoyKoh/student-resource-tool/blob/master/wireframes/InitialWireframeDesktop.png)
   - [Digital prototype wireframe iteration with Proof of Concept exploring different compoments](https://ngiappuoykoh.github.io/MS1PrototypeWireframe/)
 
 - Revise Scope, components and prioritize features
