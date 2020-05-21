@@ -5,7 +5,7 @@ html {
 
 header {
   font-family: "Roboto", sans-serif;
-  background: #444655;  
+  background: #444655;
 }
 
 h1 {
@@ -23,7 +23,7 @@ body {
 
 h4 {
   font-weight: bolder;
-  color:444655;
+  color: #444655;
 }
 
 h5 {
@@ -33,7 +33,8 @@ h5 {
 
 .card {
   border-color: #444655;
-  border-width: 0.1rem;;
+  border-width: 0.1rem;
+  ;
 }
 
 .card-header {
@@ -67,7 +68,7 @@ h5 {
 
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 
