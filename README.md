@@ -110,7 +110,7 @@ Interface and Information Design Details
 - Wireframes
   - [Initial wireframe for iPhone](wireframes\InitialWireframeiPhone.png)
   - [Initial wireframe for desktop](wireframes\InitialWireframeDesktop.png)
-  - [Digital prototype wireframe iteration with Proof of Concept exploring different compoments](https://github.com/NgiapPuoyKoh/MS1PrototyeWireframe)
+  - [Digital prototype wireframe iteration with Proof of Concept exploring different compoments](https://ngiappuoykoh.github.io/MS1PrototypeWireframe/)
 
 - Revise Scope, components and prioritize features
   - Sticky collapsable Navbar with a scrollspy for mobile and desktop
