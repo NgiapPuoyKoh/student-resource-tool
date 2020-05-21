@@ -41,14 +41,13 @@ h5 {
 .card {
   border-color: #444655;
   border-width: 0.1rem;
-  ;
 }
 
 .card-header {
   font-size: 1.25rem;
   font-weight: bolder;
-  color: #F12E5E;
-  background: #444655;
+  color: #545454;
+  background: #93949663;
 }
 
 
@@ -80,6 +79,10 @@ h5 {
 
 
 /* Titles */
+.main-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
 
 .section-title {
   border-bottom: 0.2rem solid #d3d3d3;
