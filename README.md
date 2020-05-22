@@ -18,7 +18,7 @@ Utilize the Bootstrap framework for faster development and easy code maintenance
 
 <details>
 <summary>
-Strtegy Planning Details
+Strategy Plane Details
 </summary>
 <p>
 
@@ -312,7 +312,7 @@ Detail List of Technologies
 
 <details>
 <summary>
-List of Use Cases by Components
+List of Use Cases by Feature
 </summary>
 <p>
 
@@ -457,7 +457,7 @@ GitHub Pages was used to deploy the project web page.
 
 <details>
 <summary>
-Cloning a repository
+Cloning the project repository
 </summary>
 <p>
 
@@ -479,7 +479,7 @@ Cloning a repository
 
 <details>
 <summary>
-Configure GitHub Pages site
+Configure GitHub Pages Site
 </summary>
 <p>
 
