@@ -2,11 +2,11 @@
 
 This tool is intended for students to access curated material and daily tips. The curator can easily update the content.
 
-## UX/UXD Process
-
 ## Project Goal
 
 Create a minimal viable product (MVP) that is useful, usable and valuable
+
+## UX/UXD Process
 
 ## Strategy Plane - User Needs and Business Objective
 
@@ -15,6 +15,12 @@ A minimal viable product that works well on a mobile device and desktop for stud
 The content is easy to update by the curator.
 
 Utilize the Bootstrap framework for faster development and easy code maintenance.
+
+<details>
+<summary>
+Strtegy Planning Details
+</summary>
+<p>
 
 - [Conducted stakeholder interview using Slack CI #Pair Programming channel](https://code-institute-room.slack.com/archives/CJPLQ7D2P/p1586729359025700)
 - Confirmation of the feasibility of a Minimal Viable Product (MVP)
@@ -26,13 +32,15 @@ Utilize the Bootstrap framework for faster development and easy code maintenance
   - Album
   - Modal
 
-- Business Goals and objectives
+- Identify Business Goals and Objectives
   - FAQ resource for students
   - Tool for the curator to upload answers to FAQ
   - Easy to update and maintain
   - Timely and effective delivery of information to students and minimize FAQ activity in Slack and Tutor channels
   - Information content
   - Answers to FAQ by topic and category
+
+</details>
 
 ## Scope Plane
 
@@ -46,6 +54,11 @@ Quick start tips will include annotated screen capture and step by step instruct
 
 A feedback form to collect rating by topic and user comments.
 
+<details>
+<summary>
+Project Scope Details
+</summary>
+<p>
 - In-Scope Features
   - Onepage website with multiple sections
   - Cards containing information and buttons to access documents and videos for each
@@ -75,11 +88,19 @@ A feedback form to collect rating by topic and user comments.
   - Replace steps with Animation
   - Decision tree or simple AI to keep, remove or modify the content
 
+</details>
+
 ## Structure Plane
 
-Goal: Traceability of components to business requirements
+Interaction design and Information Archtecture
 
-### Functional Specifications and Content Requirements
+Objective: Mantain traceability of components to business requirements
+
+<details>
+<summary>
+Functional Specifications and Content Requirements
+</summary>
+<p>
 
 - Draft Balsamiq wireframe for desktop and mobile
 - Research top FAQ based on Slack activity
@@ -101,12 +122,21 @@ Goal: Traceability of components to business requirements
   - Link to slack messages and URL
 - Provide the opportunity for user feedback
 
+</details>
+
 ## Skeleton Plane
 
-Interface and Information Design Details
+Conceptual Structure of the website
+
+<details>
+<summary>
+Interface and Information Design proof of concept and wireframes
+</summary>
+<p>
 
 - Proof of concept implementing wireframe using Bootstrap on gitpage
-- Planning call with Mentor to review Proof of Concept and wireframes
+- Review Proof of Concept and wireframes with mentor
+
 - Wireframes
   - [Initial wireframe for iPhone](https://github.com/NgiapPuoyKoh/student-resource-tool/blob/master/wireframes/InitialWireframeiPhone.png)
   - [Initial wireframe for desktop](https://github.com/NgiapPuoyKoh/student-resource-tool/blob/master/wireframes/InitialWireframeDesktop.png)
@@ -138,9 +168,17 @@ Interface and Information Design Details
   - [Card Headline Thumbnails](wireframes/uipatterns/HeadlineThumbnailsGallery.jpg)
   - [Card Silhouette](wireframes/uipatterns/silhouetteView.jpg)
 
+</details>
+
 ## Surface Plane - Visual Design
 
 Goal: Clean, Minimalist and Effective intended primarily for use on a mobile device
+
+<details>
+<summary>
+Design Implementation
+</summary>
+<p>
 
 - Single-page website with multiple sections
 
@@ -200,6 +238,8 @@ Goal: Clean, Minimalist and Effective intended primarily for use on a mobile dev
 - Alerts
 - Favicon
 
+</details>
+
 ## Features
 
 ### Feature 1
@@ -226,13 +266,18 @@ Modal Feedback form with required radio options and text area will trigger an al
 
 Applied ARIA Labels to elements for screenreader processing
 
-## Features left to implement
+### Features left to implement
 
 - Improve UI design
 - Improve page identity
 
 ## Technologies Used
 
+<details>
+<summary>
+Detail List of Technologies
+</summary>
+<p>
 - HTML
 - CSS
 - Bootstrap
@@ -259,9 +304,17 @@ Applied ARIA Labels to elements for screenreader processing
     - Accessibility Audit
     - JS loaded using dev tool/network
 
+</details>
+
 ## Testing
 
 ### Use Cases Test Scenarios
+
+<details>
+<summary>
+List of Use Cases by Components
+</summary>
+<p>
 
 #### Navbar
 
@@ -300,7 +353,13 @@ Applied ARIA Labels to elements for screenreader processing
 - User fails to select required radio buttons and clicks submit button a message will render to notify that selection a radio is required
 - User selects all required radio options without entering a comment and clicks on submit button no messages will render
 
-#### Validation
+</details>
+
+<details>
+<summary>
+Code Validation
+</summary>
+<p>
 
 - HTML [W3C Makeup Validation Service](https://validator.w3.org)
   - BUG: stray footer reported for body reported because of existing modal window footer
@@ -315,7 +374,13 @@ Applied ARIA Labels to elements for screenreader processing
 
 - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-### Issues Resolved
+</details>
+
+<details>
+<summary>
+Issues Resolved
+</summary>
+<p>
 
 - Maintain the same height for cards responsiveness medium devices small card sizes in container columns are not the same height
 
@@ -330,7 +395,13 @@ Applied ARIA Labels to elements for screenreader processing
 - Upgrade to Bootstrap 4.5 resulted in form radio item columns failing to be responsive
   - BUG: Modal Window responsiveness broke requiring forced ```<div class="col-xs-6 col-sm-4">``` and class to adjust stacking or radio items on form for smaller devices
 
-### Open Issues
+</details>
+
+<details>
+<summary>
+Open Issues
+</summary>
+<p>
 
 - Navbar scrollspy does not work on iPhone6S. The alignment is below the location of section item ids.
   - BUG: Known Issue with iPhone and iPad [Issue with fixed bootstrap navbar on mobile](https://www.freecodecamp.org/forum/t/issue-with-fixed-bootstrap-navbar-on-mobile/17533)
@@ -339,6 +410,14 @@ Applied ARIA Labels to elements for screenreader processing
   - BUG: Form data does not clear after closing modal window unless the browser session is refreshed
 
 - Improvement of UI/UX design. A creative challenged individual requires the investment of a significant amount of time and learning with practice to achieve minimal competency. The CI Full Stack Web Development program does provide suport for UI and UX design.
+
+</details>
+
+<details>
+<summary>
+Devices and Tools used for Testing
+</summary>
+<p>
 
 ### Devices Used
 
@@ -352,7 +431,13 @@ Applied ARIA Labels to elements for screenreader processing
   - Chrome device emulations for available devices
   - Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
 
-### Future Goals
+</details>
+
+<details>
+<summary>
+Future Goals
+</summary>
+<p>
 
 - For smaller device swap Carousel with Modal to include magnified images
 - Scripts to automated content updates
@@ -364,11 +449,17 @@ Applied ARIA Labels to elements for screenreader processing
 - [Implement Aria standards](https://www.aditus.io/aria/aria-label/)
 - Implement a chatbot to collect feedback
 
+</details>
+
 ## Deployment
 
 GitHub Pages was used to deploy the project web page.
 
-### Cloning a repository
+<details>
+<summary>
+Cloning a repository
+</summary>
+<p>
 
 1. Navigate to [https://github.com/NgiapPuoyKoh/student-resource-tool](https://github.com/NgiapPuoyKoh/student-resource-tool)
 
@@ -384,7 +475,13 @@ GitHub Pages was used to deploy the project web page.
 
 1. Press enter
 
-### Configure GitHub Pages site
+</details>
+
+<details>
+<summary>
+Configure GitHub Pages site
+</summary>
+<p>
 
 1. Navigate to the Github remote repository [https://github.com/NgiapPuoyKoh/student-resource-tool](https://github.com/NgiapPuoyKoh/student-resource-tool)
 
@@ -396,9 +493,15 @@ GitHub Pages was used to deploy the project web page.
 
 1. Wait a few minutes and then access the completed project using this link [https://ngiappuoykoh.github.io/student-resource-tool/](https://ngiappuoykoh.github.io/student-resource-tool/)
 
+</details>
+
 ## Credits
 
-### Content
+<details>
+<summary>
+Content
+</summary>
+<p>
 
 - Anna Greaves a notable active Tutor on CI Slack and author of MS1 Project documents, videos and pinned messages
 - Igor Basuga and Anthony O'Brien contributors to slack pinned items
@@ -406,7 +509,13 @@ GitHub Pages was used to deploy the project web page.
 - [Favicon fontawesome generator](https://gauger.io/fonticon/)
 - [Favicon Generator](https://favicon.io/)
 
-### Acknowledgment
+</details>
+
+<details>
+<summary>
+Acknowledgment
+</summary>
+<p>
 
 - [**Guido Cecilio**](https://www.linkedin.com/in/guidocecilio/) for mentor guidance
 - [**Anna Greaves**](https://www.linkedin.com/in/anna-greaves/) providing helpful material to navigate through my MS1 project
@@ -415,10 +524,16 @@ GitHub Pages was used to deploy the project web page.
   - [**Igor Basuga**](https://www.linkedin.com/in/igor-basuga-b2a123111/)
   - [**Anthony O'Brien**](https://www.linkedin.com/in/anthony-o-%E2%80%8B-brien-8324a5139/)
   - [**Kasia Bee Zee**](https://github.com/bezebee)
+  - [**Paul Edward Bennett**](https://www.linkedin.com/in/paul-bennett-6b6257b2/)
 - Support from the Code Institute tutors, CI Staff and Slack community
+</details>
 
 ## References
-
+<details>
+<summary>
+Reference List by Topic
+</summary>
+<p>
 ### Bootstrap
 
 - [How the Bootstrap 4 Grid Works](https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7)
@@ -451,6 +566,7 @@ GitHub Pages was used to deploy the project web page.
 
 - [How to find computed size of any element in Chrome Developer Tools?](https://stackoverflow.com/questions/10234154/how-to-find-computed-size-of-any-element-in-chrome-developer-tools)
 - [Chrome Developer Tools](https://youtu.be/x4q86IjJFag)
+</details>
 
 ### Disclaimer
 
