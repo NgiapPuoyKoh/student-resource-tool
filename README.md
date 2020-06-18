@@ -523,7 +523,7 @@ Acknowledgment
   - [**Simem Daehlin**](https://www.linkedin.com/in/simendaehlin/)
   - [**Igor Basuga**](https://www.linkedin.com/in/igor-basuga-b2a123111/)
   - [**Anthony O'Brien**](https://www.linkedin.com/in/anthony-o-%E2%80%8B-brien-8324a5139/)
-  - [**Kasia Bee Zee**](https://github.com/bezebee)
+  - **Kasia Bee Zee**
   - [**Paul Edward Bennett**](https://www.linkedin.com/in/paul-bennett-6b6257b2/)
 - Support from the Code Institute tutors, CI Staff and Slack community
 </details>
